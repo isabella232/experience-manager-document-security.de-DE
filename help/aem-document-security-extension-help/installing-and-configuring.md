@@ -1,14 +1,14 @@
 ---
-title: Installieren und Konfigurieren AEM Dokument Security
-description: Installieren und Konfigurieren AEM Dokument Security
+title: Installieren und Konfigurieren von AEM Document Security
+description: Installieren und Konfigurieren von AEM Document Security
 uuid: 799702ab-019b-4d5f-bdb5-71df3ec88b8b
 contentOwner: dhv
 discoiquuid: 3a13781d-02c4-404b-893a-6cd094a0295b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->[AEM Document Security für Microsoft Office - Versionshinweise](../document-security-extension-release-notes.md) {#aem-document-security-for-microsoft-office-release-notes}
+>[AEM Document Security for Microsoft Office – Versionshinweise](../document-security-extension-release-notes.md) {#aem-document-security-for-microsoft-office-release-notes}
 >
 >Bitte lesen Sie die Versionshinweise, bevor Sie AEM Document Security 6.2 Extension for Microsoft Office installieren.
 
 >[!NOTE]
 >
->[Installieren und Konfigurieren von AEM Document Security Extension für Microsoft Office](../installing-configuring-aemdsext.md) {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+>[Installieren und Konfigurieren von AEM Document Security Extension for Microsoft Office](../installing-configuring-aemdsext.md) {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 >
 >Dieses Dokument erläutert die Installation und Konfiguration von Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.
 
