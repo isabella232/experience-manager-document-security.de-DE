@@ -1,19 +1,19 @@
 ---
 cloud: experience-cloud
 solution-title: Lernen und Support
-solution-hub-url: https://helpx.adobe.com/de/marketing-cloud/experience-manager.html
+solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de
 getting-started-title: Erste Schritte
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
+getting-started-url: https://helpx.adobe.com/de/experience-manager/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/?tag=Tutorial#recommended/solutions/experience-manage
+tutorials-url: https://experienceleague.adobe.com/?tag=Tutorial&lang=de#recommended/solutions/experience-manage
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-document-security.de-DE
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29c078e0820b42b53eb65061893e45c8cb63e549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 | getting-started-url | Link zur helpx-Seite „Erste Schritte“ |
 | tutorials-url | Link zu Video-Tutorials – entweder helpx-Tutorials oder KT-Tutorials |
 | mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standard ist 2 |
-| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an. |
+| git-repo | Gibt den Speicherort des primären Repo für die interne Verwendung an. |
 
 In der Datei TOC.md
 
