@@ -9,11 +9,11 @@ breadcrumb-title: Document Security-Handbuch
 user-guide-description: Die Document Security-Erweiterung für Microsoft® Office stellt sicher, dass nur von Ihnen autorisierte Benutzer Word-, Excel- und PowerPoint-Dateien verwenden können, die Ihr geistiges Eigentum enthalten.
 feature: Dokumentensicherheit
 role: Geschäftspraktiker
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f441620b5463ffa0c038f76e1b92c4e3a56d23b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
