@@ -1,19 +1,19 @@
 ---
-title: Fehlerbehebung für AEM Document Security Extension for Microsoft Office
+title: Fehlerbehebung für AEM Document Security Extension for Microsoft Office
 description: Wenn Sie Probleme bei der Installation, Konfiguration oder Verwendung von AEM Document Security Extension for Microsoft Office haben, folgen Sie den Anweisungen in diesem Dokument.
 uuid: 61001ca8-a25a-4879-98ac-563a6eb126e7
 contentOwner: khsingh
 content-type: reference
 topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
+exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 translation-type: ht
-source-git-commit: ac26ec61f62d7a3db2429c8a9d3f68b82ba8f77a
+source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
 workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
 ---
-
 
 # Fehlerbehebung für AEM Document Security Extension for Microsoft Office {#troubleshooting-aem-document-security-extension-for-microsoft-office}
 
@@ -33,11 +33,11 @@ Die LoadBehavior-Eigenschaft in der Windows-Registrierung gibt das Laufzeit-Verh
 
 1. Schließen Sie den Registrierungseditor.
 
-Ausführliche Informationen zu LoadBehavior finden Sie im Artikel [Registrierungseinträge für VSTO Add-Ins](https://msdn.microsoft.com/de-de/library/bb386106.aspx#LoadBehavior).
+Ausführliche Informationen zu LoadBehavior finden Sie im Artikel [Registrierungseinträge für VSTO-Add-Ins](https://msdn.microsoft.com/de-de/library/bb386106.aspx#LoadBehavior).
 
 ## Fehlerbehebung zu Administrationsaufgaben {#admintasks}
 
-In diesem Abschnitt werden mögliche Probleme mit Ihrer AEM Document Security Extension behandelt.
+In diesem Abschnitt werden mögliche Probleme mit Ihrer installierten AEM Document Security Extension behandelt.
 
 ### Microsoft Office-Programme starten nicht ordnungsgemäß beim Installieren von Document Security Extension {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
 
