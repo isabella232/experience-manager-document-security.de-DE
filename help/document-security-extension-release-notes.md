@@ -1,18 +1,18 @@
 ---
 title: AEM Document Security for Microsoft Office - Versionshinweise
-description: Bitte lesen Sie die Versionshinweise, bevor Sie AEM Document Security 6.2 Extension for Microsoft Office installieren.
+description: Lesen Sie die Versionshinweise, bevor Sie AEM Document Security 6.2 Extension for Microsoft Office installieren.
 uuid: f6ab73d4-ac4e-4fff-9bb8-917b75401653
 content-type: reference
 topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
+exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
 translation-type: ht
-source-git-commit: 403b800eab086d131beb65a496836158778954ee
+source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
 workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
 ---
-
 
 # AEM Document Security for Microsoft Office - Versionshinweise {#aem-document-security-for-microsoft-office-release-notes}
 
@@ -38,7 +38,7 @@ Prüfen Sie die Informationen in diesem Dokument, bevor Sie AEM Document Securit
 
 ### Plug-ins von Drittanbietern werden nicht unterstützt {#third-party-plug-ins-not-supported}
 
-AEM Document Security Extension for Microsoft Office funktioniert nicht mit Plug-ins von Drittanbietern. Deinstallieren Sie alle Plug-ins von Drittanbietern für Microsoft Office, bevor Sie Document Security für Microsoft Office installieren.
+AEM Document Security Extension for Microsoft Office funktioniert nicht mit Plug-ins von Drittanbietern. Deinstallieren Sie alle Plug-ins von Drittanbietern für Microsoft Office, bevor Sie Document Security Extension for Microsoft Office installieren.
 
 ### Deaktivieren Sie Menüoptionen in Microsoft Word, Excel und PowerPoint {#disabled-menu-options-in-microsoft-word-excel-and-powerpoint}
 
