@@ -6,15 +6,14 @@ content-type: reference
 topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
-translation-type: ht
 source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
 
 ---
 
-# AEM Document Security for Microsoft Office - Versionshinweise {#aem-document-security-for-microsoft-office-release-notes}
+# AEM Document Security for Microsoft Office - Versionshinweise{#aem-document-security-for-microsoft-office-release-notes}
 
 ## Neue Funktionen in AEM Document Security for Microsoft Office {#whats-new-in-aem-document-security-for-microsoft-office}
 
@@ -44,7 +43,7 @@ AEM Document Security Extension for Microsoft Office funktioniert nicht mit Plug
 
 AEM Document Security Extension for Microsoft Office verwendet integrierte Schutzfunktionen, um Dokumente, Arbeitsmappen und Präsentationen zu schützen. Es werden einige Menüoptionen in Excel, Word und PowerPoint deaktiviert.
 
-### Einschränkungen für Microsoft Excel 2013, 2016 und 2019 {#restrictions-for-microsoft-office}
+### Einschränkungen für Microsoft Excel 2013, 2016 und 2019  {#restrictions-for-microsoft-office}
 
 In Microsoft und sind während einer geschützten Sitzung folgende Optionen nicht verfügbar:
 
@@ -71,7 +70,7 @@ In Microsoft und sind während einer geschützten Sitzung folgende Optionen nich
    * Datei > Info > Dokument schützen > Digitale Signatur hinzufügen
    * Datei > Info > Dokument schützen > Als abgeschlossen kennzeichnen
 
-### Öffnen eines geschützten Dokuments vom SharePoint-Server aus {#opening-a-protected-document-from-sharepoint-server}
+### Öffnen eines geschützten Dokuments vom SharePoint-Server aus  {#opening-a-protected-document-from-sharepoint-server}
 
 Öffnen des geschützten Dokuments: Wenn Sie versuchen, ein geschütztes Dokument von SharePoint Server aus in Document Security Extension for Microsoft Office zu öffnen, ohne zuvor das mit dem Dateityp verknüpfte Microsoft Office-Programm zu öffnen, z. B. Microsoft Word, Microsoft Excel oder Microsoft PowerPoint, wird das Dokument möglicherweise nicht geöffnet. Es wird eine Fehlermeldung angezeigt, die darauf hinweist, dass Sie das entsprechende Plug-in installieren müssen. Es wird daher empfohlen, das zugehörige Microsoft Office-Programm zu öffnen, bevor Sie ein geschütztes Dokument in Document Security Extension for Microsoft Office über SharePoint Server öffnen.
 
@@ -79,11 +78,11 @@ In Microsoft und sind während einer geschützten Sitzung folgende Optionen nich
 
 Wenn Sie ein geschütztes Dokument über SharePoint Server öffnen, werden alle Berechtigungen für das Dokument deaktiviert, unabhängig von der angewendeten Richtlinie.
 
-### Anwenden von Richtlinien mit dynamischem Wasserzeichen auf Microsoft Excel 2013, Microsoft Excel 2016 und Microsoft Excel 2019-Dateien, wenn kein Drucker installiert ist {#apply-a-policy-with-a-dynamic-watermark-to-microsoft-excel-microsoft-excel-and-microsoft-excel-file-with-no-printer-installed}
+### Anwenden von Richtlinien mit dynamischem Wasserzeichen auf Microsoft Excel 2013, Microsoft Excel 2016 und Microsoft Excel 2019-Dateien, wenn kein Drucker installiert ist  {#apply-a-policy-with-a-dynamic-watermark-to-microsoft-excel-microsoft-excel-and-microsoft-excel-file-with-no-printer-installed}
 
 Wenn Sie auf einem Computer, bei dem kein Drucker installiert ist, eine Richtlinie mit dynamischem Wasserzeichen auf eine Excel 2013-, Microsoft Excel 2016- und Microsoft Excel 2019-Datei anwenden und diese Datei speichern, wird folgende Fehlermeldung angezeigt: „Interner Fehler beim Anwenden des dynamischen Wasserzeichens.“ Dieser Fehler wird auch angezeigt, wenn Sie die geschützte Datei erneut öffnen. Das Wasserzeichen wird nicht angewendet und ist in „Ansicht“ > „Seitenlayout“ nicht sichtbar.
 
-### Deaktivieren Sie Windows Data Execution Prevention für unterstützte Office-Programme {#disable-windows-data-execution-prevention-for-supported-office-applications}
+### Deaktivieren Sie Windows Data Execution Prevention für unterstützte Office-Programme  {#disable-windows-data-execution-prevention-for-supported-office-applications}
 
 Es wird empfohlen, dass Sie bei der Verwendung von Microsoft Office-Programmen, die von Document Security Extension unterstützt werden, die Windows Data Execution Prevention (DEP)-Einstellungen deaktivieren.
 
@@ -95,11 +94,11 @@ Wenn Sie gemeinsam genutzte Microsoft Office-Dateien mit Document Security Exten
 
 Wenn Sie außerdem einen reibungslosen Start von Office-Programmen auf Computern mit installierter Document Security und aktiviertem McAfee VirusScan mit Überprüfung bei Zugriff sicherstellen möchten, deaktivieren Sie die Option „Pufferüberlaufschutz“ in der McAfee VirusScan-Konsole.
 
-### Installieren von Document Security Extension for Microsoft Office auf einem Computer mit einer nicht unterstützten Microsoft Office-Sprache {#installing-document-security-extension-for-microsoft-office-on-a-machine-with-an-unsupported-microsoft-office-language}
+### Installieren von Document Security Extension for Microsoft Office auf einem Computer mit einer nicht unterstützten Microsoft Office-Sprache  {#installing-document-security-extension-for-microsoft-office-on-a-machine-with-an-unsupported-microsoft-office-language}
 
 Bevor Sie Document Security Extension for Microsoft Office auf einem Computer installieren, auf dem eine Microsoft Office-Anwendung mit einer nicht unterstützten Sprache installiert ist, öffnen Sie das Office-Programm mindestens einmal.
 
-### Die Schaltfläche „Offline synchronisieren“ ist selbst dann aktiviert, wenn ein Benutzer keine Offline-Berechtigungen hat {#synchronize-offline-button-is-enabled-even-when-a-user-does-not-have-offline-permissions}
+### Die Schaltfläche „Offline synchronisieren“ ist selbst dann aktiviert, wenn ein Benutzer keine Offline-Berechtigungen hat  {#synchronize-offline-button-is-enabled-even-when-a-user-does-not-have-offline-permissions}
 
 Die Schaltfläche „Offline synchronisieren“ ist verfügbar, obwohl der Benutzer keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch wirkungslos.
 
@@ -119,7 +118,7 @@ Wenn eine Zelle eines Microsoft Excel-Dokuments ein Bild enthält oder mit einer
 
 Wenn mehrere Zertifikate auf einem Client-Computer vorhanden sind und der Benutzer das Dialogfeld für die Zertifikatauswahl abbricht, wird das Dialogfeld noch einmal angezeigt und der Benutzer muss es zweimal abbrechen.
 
-### Microsoft PowerPoint ermöglicht das Bearbeiten von geschützten Dokumenten {#microsoft-powerpoint-allows-editing-protected-documents}
+### Microsoft PowerPoint ermöglicht das Bearbeiten von geschützten Dokumenten  {#microsoft-powerpoint-allows-editing-protected-documents}
 
 Wenn Sie geschützte Dokumente bearbeiten wollen, zeigt Microsoft PowerPoint eine Nachricht an „Sie dürfen dieses Dokument nicht ändern. Sie können die Änderungen nicht speichern.“ Nachdem Sie die Nachricht geschlossen haben, können Benutzer weiterhin Text zum Dokument hinzuzufügen oder es bearbeiten. Die Änderungen am geschützten Dokument werden aber nicht gespeichert.
 
