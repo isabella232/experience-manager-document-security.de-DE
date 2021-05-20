@@ -6,9 +6,8 @@ content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-translation-type: ht
 source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2796'
 ht-degree: 100%
 
@@ -248,7 +247,7 @@ Wenn die Option „Richtlinie automatisch anwenden“ aktiviert ist, werden alle
 
 Weitere Informationen zum Konfigurieren der automatischen Anwendung von Richtlinien finden Sie unter[ Konfigurieren der automatischen Anwendung der Standardrichtlinie](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
 
-## Benutzeroberfläche ohne Menüband aktivieren {#enable-ribbon-less-user-interface}
+## Benutzeroberfläche ohne Menüband aktivieren  {#enable-ribbon-less-user-interface}
 
 Sie können die Benutzeroberfläche ohne Menüband aktivieren/deaktivieren, indem Sie die Einstellungen in der Windows-Registrierung ändern. Führen Sie die folgenden Schritte durch, um die Registrierung zu aktualisieren und die Benutzeroberfläche ohne Menüband zu aktualisieren
 
@@ -260,11 +259,11 @@ Sie können die Benutzeroberfläche ohne Menüband aktivieren/deaktivieren, inde
 
 1. Schließen Sie den Registrierungseditor.
 
-## Aktivieren des Wasserzeichens zum Drucken in Microsoft Excel {#enable-watermark-for-printing-in-microsoft-excel}
+## Aktivieren des Wasserzeichens zum Drucken in Microsoft Excel  {#enable-watermark-for-printing-in-microsoft-excel}
 
 Sie können die Einstellungen in der Windows-Registrierung ändern, damit ein dynamisches Wasserzeichen gleichzeitig mit vorhandenen Kopf- und Fußzeilen verwendet werden kann. Die Registrierungseinstellungen machen das Wasserzeichen nur während des Druckens verfügbar. Führen Sie die folgenden Schritte durch, um die Registrierung zu aktualisieren und um die Wasserzeichen während des Druckens zu aktivieren.
 
-1. Machen Sie eine Sicherungskopie von der Windows-Registrierung, bevor Sie daran Änderungen vornehmen. Ausführliche Anweisungen finden Sie unter[ Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/de-de/kb/136393).
+1. Machen Sie eine Sicherungskopie von der Windows-Registrierung, bevor Sie daran Änderungen vornehmen. Ausführliche Anweisungen finden Sie unter[ Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/en-us/kb/136393).
 1. Navigieren Sie im Registrierungseditor zu diesem Schlüssel: HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 oder HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Erstellen Sie einen neuen benannten Registrierungswert **WatermarkMode**.
 1. Erstellen Sie im WatermarkMode-Registrierungsschlüssel ein DWORD **WatermarkMode** und der Wert der DWORD **WatermarkMode** bis **1.**
@@ -279,7 +278,7 @@ Sie können die Einstellungen in der Windows-Registrierung ändern, damit ein dy
 
 Ein Benutzer kann versuchen, das geschützte Dokument auf einem Computer zu öffnen, das keine AEM Document Security for Microsoft Office-Plug-in installiert hat. Derartige Computer können das Dokument nicht öffnen. Auf solchen Computern können Sie eine Titelseite anzeigen, die Anweisungen zum Verwenden von AEM Document Security for Microsoft Office-Plug-in und anderen Informationen enthalten.
 
-### Vor der Konfiguration der Titelseite {#before-you-configure-a-cover-page}
+### Vor der Konfiguration der Titelseite  {#before-you-configure-a-cover-page}
 
 * Erstellen Sie eine Sicherungskopie der Datei „CommonResources.dll“. Der Standardpfad lautet:
 
@@ -331,7 +330,7 @@ Die Datei „CommonResources.dll“ enthält Informationen zu den Ressourcenvorl
  </tbody>
 </table>
 
-#### Konfigurieren der Vorlage als Titelseite {#configure-the-template-as-a-cover-page}
+#### Konfigurieren der Vorlage als Titelseite  {#configure-the-template-as-a-cover-page}
 
 1. Öffnen Sie Microsoft Visual Studio. Öffnen Sie die Datei „CommonResources.dll“, um sie zu bearbeiten.
 
