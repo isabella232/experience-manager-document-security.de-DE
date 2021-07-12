@@ -8,8 +8,8 @@ user-guide-title: Adobe Experience Manager Document Security-Handbuch
 breadcrumb-title: Document Security-Handbuch
 user-guide-description: Die Document Security-Erweiterung für Microsoft® Office stellt sicher, dass nur von Ihnen autorisierte Benutzer Word-, Excel- und PowerPoint-Dateien verwenden können, die Ihr geistiges Eigentum enthalten.
 feature: Dokumentensicherheit
-role: Business Practitioner
-source-git-commit: 7be2b17e7685a391dcccde2cc008802b5773cadf
+role: User
+source-git-commit: 30aa9eea28832fba634fb7710c0cc0666a9f3b7e
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 100%
