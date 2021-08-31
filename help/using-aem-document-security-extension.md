@@ -6,14 +6,14 @@ content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
-source-git-commit: a15d49cdd21ccb8e6ec6c770a92bf16cb24ffaa1
+source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
 workflow-type: tm+mt
-source-wordcount: '6270'
+source-wordcount: '6252'
 ht-degree: 100%
 
 ---
 
-# Verwendung von AEM Document Security Extension for Microsoft Office {#using-aem-document-security-extension-for-microsoft-office}
+# Verwendung von AEM Document Security Extension for Microsoft Office{#using-aem-document-security-extension-for-microsoft-office}
 
 ## Schützen von Dateien mithilfe von AEM Document Security Extension {#usingaemdocumentsecurityextensiontoprotectfiles}
 
@@ -96,7 +96,7 @@ Sie können externe Authentifizierungsanbieter in AEM Forms Document Security ve
 * Erweiterter benutzerdefinierter Authentifizierungs-Workflow mit Identitäts-Drittanbietern, die auf AEM Forms auf JEE-Server konfiguriert sind
 * Erweiterte Authentifizierung mit benutzerdefinierter Seite für die Auflistung von SAML-Authentifizierungen
 
-#### Erweiterte Authentifizierung mit AEM Forms-Standard-URL  {#extended-authentication-using-default-aem-forms-url}
+#### Erweiterte Authentifizierung mit AEM Forms-Standard-URL {#extended-authentication-using-default-aem-forms-url}
 
 Sie können die Standard-AEM Forms-URL für die erweiterte Authentifizierung verwenden. Die Standard-Startseite enthält das Adobe-Branding. Darüber hinaus werden Standardeinstellungen für AEM Forms verwendet, wenn die Standard-AEM Forms-URL für die erweiterte Authentifizierung verwendet wird.
 
@@ -142,7 +142,7 @@ Führen Sie zum Aktivieren der erweiterten Authentifizierung mit einer benutzerd
 
    Jetzt ist ein AEM Forms Document Security konfiguriert, um erweiterte Authentifizierung mit der benutzerdefinierten Startseiten-URL zu verwenden.
 
-#### Erweiterter Standardauthentifizierungs-Workflow mit Identitäts-Drittanbietern, die auf dem AEM Forms-Server konfiguriert sind.  {#default-extended-authentication-workflow-with-third-party-identity-providers-configured-on-aem-forms-server}
+#### Erweiterter Standardauthentifizierungs-Workflow mit Identitäts-Drittanbietern, die auf dem AEM Forms-Server konfiguriert sind. {#default-extended-authentication-workflow-with-third-party-identity-providers-configured-on-aem-forms-server}
 
 Bei der erweiterten Authentifizierung können verschiedene Authentifizierungstypen verwendet werden, die auf dem AEM Forms-Server verfügbar sind. Zum Beispiel SAML, [Was sind weitere Beispiele].
 
@@ -150,7 +150,7 @@ Hinweis: Wenn SAML-Anbieter auf einem AEM Forms-Server konfiguriert sind, wird v
 
 Der folgende Bildschirm wird angezeigt, wenn ein geschütztes Dokument in Acrobat geöffnet wird.
 
-#### Benutzerdefinierter erweiterter Authentifizierungs-Workflow, wenn SAML-Anbieter auf einem AEM Forms-Server konfiguriert sind  {#custom-extended-authentication-workflow-when-saml-providers-are-configured-on-aem-forms-server}
+#### Benutzerdefinierter erweiterter Authentifizierungs-Workflow, wenn SAML-Anbieter auf einem AEM Forms-Server konfiguriert sind {#custom-extended-authentication-workflow-when-saml-providers-are-configured-on-aem-forms-server}
 
 Wenn SAML-Anbieter auf einem AEM Forms-Server konfiguriert sind, wird vor der Anzeige der Ziel-URL eine Seite mit allen für SAML-Authentifizierungen konfigurierten Identitätsanbietern angezeigt.
 
@@ -159,7 +159,7 @@ Voraussetzungen zum Konfigurieren eines benutzerdefinierten erweiterten Authenti
 * SAML-Authentisierungen sind auf dem AEM Forms-Server konfiguriert
 * Benutzerdefinierte War Datei, die eine benutzerdefinierte Authentifizierungsseite und eine vollständige Logik zum Akzeptieren von Anmeldeinformationen und zum Authentifizieren beim AEM Forms-Server enthält, wird auf dem AEM Forms-Server bereitgestellt.
 
-#### Verwenden der benutzerspezifischen Seite für die Überwachung der SAML-Authentisierungen  {#using-custom-page-for-listing-saml-authentications}
+#### Verwenden der benutzerspezifischen Seite für die Überwachung der SAML-Authentisierungen {#using-custom-page-for-listing-saml-authentications}
 
 Sie können eine benutzerdefinierte Seite auch angeben, um alle Authentifizierungsanbieter einzuschließen, die auf dem AEM Forms-Server konfiguriert sind. Führen Sie die folgenden Schritte aus, um eine solche Seite zu erstellen:
 
@@ -181,8 +181,7 @@ Wenn Sie noch kein Document Security-Konto haben, kann Document Security den Reg
 Nachdem Sie sich registriert und Ihr Konto aktiviert haben, können Sie richtliniengeschützte Dateien verwenden, zu deren Nutzung Sie über eine Richtlinie berechtigt wurden.
 
 >[!NOTE]
->
->Wenn Sie eine richtliniengeschützte Datei empfangen und kein Document Security-Konto haben oder eine Einladung zur Registrierung erhalten, wenden Sie sich an die Person, die Ihnen die Datei geschickt hat.
+Wenn Sie eine richtliniengeschützte Datei empfangen und kein Document Security-Konto haben oder eine Einladung zur Registrierung erhalten, wenden Sie sich an die Person, die Ihnen die Datei geschickt hat.
 
 Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten, können Sie sich registrieren, indem Sie die URL in der E-Mail verwenden, um die Online-Registrierungsseite zu öffnen. Nach der Registrierung erhalten Sie eine weitere Benachrichtigung zur Aktivierung Ihres Kontos.
 
@@ -193,8 +192,7 @@ Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten
 1. Geben Sie Ihren Namen, Ihre Organisation und Ihr Kennwort in die entsprechenden Felder ein. Das Kennwort kann eine beliebige Kombination aus acht Zeichen sein.
 
    >[!NOTE]
-   >
-   >Achten Sie darauf, dass Sie ein Passwort wählen, das leicht zu merken ist. Es gibt keine Methode, um vergessene Kennwörter zu finden.
+   Achten Sie darauf, dass Sie ein Passwort wählen, das leicht zu merken ist. Es gibt keine Methode, um vergessene Kennwörter zu finden.
 
 1. Klicken Sie auf **Registrieren**. Es wird eine Meldung angezeigt, die Sie auffordert, Ihre E-Mail auf eine Aktivierungs-E-Mail zu überprüfen.
 1. Öffnen Sie die Bestätigungs-E-Mail von Document Security.
@@ -204,7 +202,7 @@ Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten
 1. Geben Sie in das Feld **Kennwort** das Kennwort ein, das Sie bei der Registrierung erstellt haben.
 1. Klicken Sie auf **Anmelden**.
 
-### Richtlinien erstellen und verwalten  {#creating-and-managing-policies}
+### Richtlinien erstellen und verwalten {#creating-and-managing-policies}
 
 Wenn Ihnen der Document Security-Administrator die Berechtigung erteilt hat, können Sie auf der Seite „Richtlinien“ der Document Security-Web-Seiten Richtlinien erstellen, die für Ihre eigenen Dateien gelten.
 
@@ -325,15 +323,14 @@ Einige der Richtlinieneinstellungen, die für das Erstellen von Richtlinien auf 
 
 Weitere Informationen zum Erstellen und Verwalten von Richtlinien finden Sie in der [Document Security-Hilfe für Endbenutzer](http://help.adobe.com/de_DE/AEMForms/6.1/RMHelp/).
 
-### Richtlinien anwenden  {#applying-policies}
+### Richtlinien anwenden {#applying-policies}
 
 Sie können alle verfügbaren Richtlinien auf eine Datei anwenden, einschließlich der Richtlinien, die Sie erstellt haben, und der Richtlinien, die Teil der Richtliniensätze sind, auf die Sie Zugriff haben. Bevor Sie eine Richtlinie anwenden, müssen Sie die Datei speichern.
 
 Nachdem Sie eine Richtlinie angewendet haben, wird sie der Liste „Zuletzt verwendet“ im Menü „AEM Document Security“ hinzugefügt, damit Sie Ihre am meisten verwendeten Richtlinien einfach und schnell anwenden können. Bei mehreren Instanzen von Document Security enthält die Liste „Zuletzt verwendet“ nur die Richtlinien für den Server, mit dem Sie gegenwärtig verbunden sind, oder für Ihren Standardserver, wenn Sie sich noch nicht bei einer Instanz von Document Security angemeldet haben.
 
 >[!NOTE]
->
->Sie können Richtlinien nur auf Word-Dokumentdateien (.doc, auch .docx und .docm in Microsoft Office 2010 und 2013), Excel-Arbeitsmappendateien (.xls, auch .xlsx und .xlsm in Microsoft Office 2010 und 2013) und PowerPoint-Präsentationsdateien (.ppt, auch .pptx und .pptm in Microsoft Office 2010 und 2013) anwenden. Richtlinien können nicht auf Word-Vorlagendateien (.dot), Excel-Vorlagendateien (.xlt) und PowerPoint-Design-Vorlagendateien (.pot) angewendet werden.
+Sie können Richtlinien nur auf Word-Dokumentdateien (.doc, auch .docx und .docm in Microsoft Office 2010 und 2013), Excel-Arbeitsmappendateien (.xls, auch .xlsx und .xlsm in Microsoft Office 2010 und 2013) und PowerPoint-Präsentationsdateien (.ppt, auch .pptx und .pptm in Microsoft Office 2010 und 2013) anwenden. Richtlinien können nicht auf Word-Vorlagendateien (.dot), Excel-Vorlagendateien (.xlt) und PowerPoint-Design-Vorlagendateien (.pot) angewendet werden.
 
 #### Anwenden einer Richtlinie {#apply-a-policy}
 
@@ -357,19 +354,18 @@ Sie können richtliniengeschützte Dateien verwenden, unabhängig davon, ob Sie 
 
 Wenn Sie eine richtliniengeschützte Datei empfangen und kein Document Security-Konto haben oder eine Einladung zur Registrierung erhalten, wenden Sie sich an die Person, die Ihnen die Datei geschickt hat.
 
-### Arbeiten mit richtliniengeschützten Dateien in Microsoft Office  {#working-with-policy-protected-files-in-microsoft-office}
+### Arbeiten mit richtliniengeschützten Dateien in Microsoft Office {#working-with-policy-protected-files-in-microsoft-office}
 
 Document Security Extension for Microsoft Office schränkt bestimmte Word-, Excel- und PowerPoint-Funktionen ein, um das geistige Eigentum des Dateiherausgebers zu schützen. Wenn Sie keine Berechtigung zum Ändern der Datei haben, können Sie keine Änderungen an der Datei speichern.
 
 Wenn Sie mit einer richtliniengeschützten Datei arbeiten, stehen einige Produktfunktionen möglicherweise nicht zur Verfügung oder funktionieren nicht wie gewohnt. Wenn Sie auch eine ungeschützte Datei geöffnet haben, sind die meisten Funktionen für die ungeschützte Datei aktiviert, mit Ausnahme derjenigen, die es Ihnen ermöglichen, Inhalte aus einer richtliniengeschützten Datei zu importieren oder zu kopieren, für die Sie keine Kopier- oder Exportberechtigung haben.
 
 >[!NOTE]
->
->Wenn Sie von Document Security Extension unterstützte Office-Programme verwenden, wird empfohlen, die Windows DEP-Einstellung zu deaktivieren. Wenn Sie außerdem einen reibungslosen Start von Office-Programmen auf Computern mit installierter Document Security Extension und aktiviertem McAfee VirusScan mit Überprüfung bei Zugriff sicherstellen möchten, deaktivieren Sie die Option „Pufferüberlaufschutz“ in der McAfee VirusScan-Konsole.
+Wenn Sie von Document Security Extension unterstützte Office-Programme verwenden, wird empfohlen, die Windows DEP-Einstellung zu deaktivieren. Wenn Sie außerdem einen reibungslosen Start von Office-Programmen auf Computern mit installierter Document Security Extension und aktiviertem McAfee VirusScan mit Überprüfung bei Zugriff sicherstellen möchten, deaktivieren Sie die Option „Pufferüberlaufschutz“ in der McAfee VirusScan-Konsole.
 
 Wenn eine Funktion nicht verfügbar ist, sind der Befehlsname im Menü und die entsprechende Schaltfläche in der Symbolleiste nicht verfügbar. Wenn Sie in Document Security Extension for Microsoft Office mit dem Mauszeiger über den Befehl oder die Schaltfläche fahren, zeigt ein Tooltip an, dass der Befehl durch Document Security nicht verfügbar ist.
 
-### Öffnen richtliniengeschützter Dateien  {#opening-policy-protected-files}
+### Öffnen richtliniengeschützter Dateien {#opening-policy-protected-files}
 
 Sie können richtliniengeschützte Dateien wie jede andere Datei öffnen. Wenn Sie nicht bereits bei Document Security angemeldet sind, werden Sie aufgefordert, dies zu tun, es sei denn, Sie sind nicht mit dem Internet verbunden und können die Datei offline öffnen. Wenn Sie den Anmeldevorgang abbrechen, wird der Zugriff verweigert.
 
@@ -383,7 +379,7 @@ Je nach der in Document Security implementierten Authentifizierungsmethode werde
 
 Das Kundenerlebnis beim Öffnen geschützter Dateien hängt von der Konfiguration der gegenseitigen Authentifizierung auf dem Server ab. Wenn nur ein gültiges Client-Zertifikat installiert ist, wird kein Authentifizierungsdialogfeld angezeigt und die Dateien werden erfolgreich geöffnet. Sind jedoch mehrere Client-Zertifikate auf einem Computer installiert, wird ein Authentifizierungsdialogfeld angezeigt. Der Benutzer muss ein gültiges Zertifikat auswählen, um die geschützte Datei zu öffnen.
 
-### Aufheben des Richtlinienschutzes einer Datei  {#removing-policy-protection-from-a-file}
+### Aufheben des Richtlinienschutzes einer Datei {#removing-policy-protection-from-a-file}
 
 Falls Sie die Berechtigung haben, können Sie den Richtlinienschutz von Dateien aufheben, die Sie geschützt haben. In diesem Fall ist die Datei nicht mehr durch Document Security geschützt.
 
@@ -392,10 +388,9 @@ Falls Sie die Berechtigung haben, können Sie den Richtlinienschutz von Dateien 
    Wenn Sie noch keine Anmeldeinformationen für Document Security angegeben haben, werden Sie in einem Dialogfeld aufgefordert, Ihren Benutzernamen und Ihr Kennwort einzugeben.
 
 >[!NOTE]
->
->Wenn Sie eine Richtlinie nicht von einer geschützten Datei entfernen können, wenden Sie sich an einen Document Security-Administrator.
+Wenn Sie eine Richtlinie nicht von einer geschützten Datei entfernen können, wenden Sie sich an einen Document Security-Administrator.
 
-### Anzeigen von Sicherheitseinstellungen  {#viewing-security-settings}
+### Anzeigen von Sicherheitseinstellungen {#viewing-security-settings}
 
 Sie können Ihre Berechtigungen für die aktuelle Datei zum Drucken, Kopieren, Ändern und für die Offline-Zugriff sowie ihren Gültigkeitszeitraum anzeigen.
 
@@ -412,10 +407,9 @@ Wenn Ihr Administrator die Funktion zum automatischen Anwenden von Richtlinien a
 Wenn die Richtlinie für die automatische Anwendung aktiviert ist, werden Sie von Document Security Extension for Microsoft Office aufgefordert, sich beim Document Security-Server anzumelden. Sie müssen Ihren Benutzernamen und Ihr Kennwort angeben, um vom Server authentifiziert zu werden. Wenn Sie die richtigen Anmeldeinformationen angegeben haben, wird das Dokument gespeichert und geschützt.
 
 >[!NOTE]
->
->Wenn Sie sich nicht bei Document Security anmelden können, wird das Dokument möglicherweise gespeichert. Dies hängt davon ab, wie Ihr Administrator die Richtlinie zur automatischen Anwendung konfiguriert hat. Wenden Sie sich an den Administrator, um zu erfahren, wie Dokumente in diesem Fall behandelt werden.
+Wenn Sie sich nicht bei Document Security anmelden können, wird das Dokument möglicherweise gespeichert. Dies hängt davon ab, wie Ihr Administrator die Richtlinie zur automatischen Anwendung konfiguriert hat. Wenden Sie sich an den Administrator, um zu erfahren, wie Dokumente in diesem Fall behandelt werden.
 
-### Synchronisieren für den Offline-Zugriff  {#synchronizing-for-offline-access}
+### Synchronisieren für den Offline-Zugriff {#synchronizing-for-offline-access}
 
 Richtlinien können Ihnen erlauben, Dateien zu öffnen, während Sie offline sind und nicht mit Document Security verbunden sind. Sie müssen sich zuvor bei Document Security angemeldet haben, um Ihre Anmeldeinformationen beim Server einzurichten, bevor Sie offline arbeiten können. Wenn Sie planen, mit Dateien offline zu arbeiten, wird empfohlen, dass Sie sich mit Document Security synchronisieren, bevor Sie die Verbindung trennen, um sicherzustellen, dass die Richtlinieneinstellungen für Ihre Dateien auf dem Server aktuell sind. Es wird empfohlen, dass Sie die Datei auch einmal online öffnen, bevor Sie sie offline öffnen. Wenn Sie die Datei nicht einmal online öffnen oder mit dem Server synchronisieren, können Sie möglicherweise weiterhin richtliniengeschützte Dateien verwenden, wenn Sie offline sind. Die Offline-Nutzungsdauer darf jedoch nicht abgelaufen sein, und die Richtlinieneinstellungen für die Datei dürfen sich seit der letzten manuellen oder automatischen Synchronisierung mit dem Server nicht geändert haben.
 
@@ -484,7 +478,7 @@ Sie können die Document Security-Web-Seiten öffnen, um Ihre Benutzerrichtlinie
 
 Zum Öffnen von Document Security-Web-Seiten in Document Security Extension for Microsoft Office 2010 und 2013 wählen Sie auf der Registerkarte **Document Security** die Option **Richtlinien erstellen und verwalten** aus. Wenn Sie keine Anmeldeinformationen angegeben haben, zeigt der Browser die Seite zur Server-Anmeldung an.
 
-### Ändern von Richtlinien  {#changing-policies}
+### Ändern von Richtlinien {#changing-policies}
 
 Wenn Sie über Berechtigungen verfügen, in der Regel als Document Security-Administrator oder als Herausgeber der Datei, können Sie später eine andere Richtlinie auf eine Datei anwenden oder die Einstellungen der aktuell angewendeten Richtlinie ändern.
 
@@ -496,7 +490,7 @@ Um die Einstellungen für eine Richtlinie zu ändern, verwenden Sie die Document
 
 1. Wählen Sie eine Richtlinie in der Liste aus und klicken Sie auf **Übernehmen**.
 
-### Sperren von Dateizugriffsberechtigungen  {#revoking-file-access-privileges}
+### Sperren von Dateizugriffsberechtigungen {#revoking-file-access-privileges}
 
 Sie können die Möglichkeit zum Öffnen von Dateien, die Sie geschützt haben, widerrufen. Wenn Sie die Zugriffsrechte für eine Datei widerrufen, können Sie auch die Meldung angeben, die jedem angezeigt wird, der versucht, die Datei zu öffnen, sowie die URL zu einer aktualisierten Version der Datei, wenn Sie sie durch eine überarbeitete Kopie ersetzen.
 
@@ -542,7 +536,7 @@ Wählen Sie in Document Security Extension for Microsoft Office 2010 und 2013 au
 
 Die Document Security -Web-Seiten werden mit der Seite „Ereignisse“ geöffnet, auf der die geprüften Ereignisse für die aktuelle Datei angezeigt werden.
 
-### Einschränkung von Microsoft Office-Funktionen  {#microsoft-office-restricted-features}
+### Einschränkung von Microsoft Office-Funktionen {#microsoft-office-restricted-features}
 
 Zum Schutz Ihres geistigen Eigentums stehen einige Microsoft Office-Funktionen nicht zur Verfügung, wenn eine richtliniengeschützte Datei geöffnet ist. Die Liste der nicht verfügbaren Funktionen hängt von den Berechtigungen ab, die dem aktuellen Benutzer gewährt werden. Einige Features sind nur für eine geschützte Datei nicht verfügbar, während andere für alle Dateien nicht verfügbar sind, wenn Sie sich in einer geschützten Sitzung befinden. Im Allgemeinen befinden Sie sich ab dem Öffnen einer richtliniengeschützten Datei in einer geschützten Sitzung, bis Sie das Programm schließen oder die Sitzung abläuft.
 
@@ -551,8 +545,7 @@ Die meisten Richtlinien gewähren dem Herausgeber der Datei volle Berechtigungen
 Wenn ein Befehl nicht verfügbar ist, werden der Befehlsname im Menü und die entsprechende Schaltfläche in der Symbolleiste grau dargestellt.
 
 >[!NOTE]
->
->Beim Anwenden einer Richtlinie auf eine Datei, die einen Link zu einer eingebetteten Datei enthält, wird die Richtlinie nicht auf die verknüpfte Datei angewendet. Document Security for Microsoft Office erweitert den Schutz nicht auf verknüpfte Dateien.
+Beim Anwenden einer Richtlinie auf eine Datei, die einen Link zu einer eingebetteten Datei enthält, wird die Richtlinie nicht auf die verknüpfte Datei angewendet. Document Security for Microsoft Office erweitert den Schutz nicht auf verknüpfte Dateien.
 
 * Richtliniengeschützte Word-, Excel- und PowerPoint-Dateien können nicht in einem Internet Explorer-Browserfenster geöffnet werden.
 * Benutzer, denen nur die Berechtigung „Ändern“ erteilt wurde, können über die Windows-Zwischenablage keine Inhalte aus einem anderen Programm in eine Datei kopieren. Benutzer können Inhalte in Dateien kopieren, indem sie die Option „Microsoft Office-Zwischenablage“ aktivieren.
@@ -786,8 +779,6 @@ Sie können externe Authentifizierungsanbieter in AEM Forms Document Security ve
 * Erweiterter Standardauthentifizierungs-Workflow mit Identitäts-Drittanbietern, die auf AEM Forms auf JEE-Server konfiguriert sind
 * Erweiterter benutzerdefinierter Authentifizierungs-Workflow mit Identitäts-Drittanbietern, die auf AEM Forms auf JEE-Server konfiguriert sind
 * Erweiterte Authentifizierung mit benutzerdefinierter Seite für die Auflistung von SAML-Authentifizierungen
-
-Genaue Schritte zur Konfiguration von erweiterten Authentifizierungs-Workflows finden Sie im Artikel [Erweiterte Authentifizierungsszenarios](http://blogs.adobe.com/livecycle/2011/12/extended-authentication-scenarios.html)
 
 ## Glossar {#glossary}
 
