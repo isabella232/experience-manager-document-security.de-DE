@@ -7,13 +7,13 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2764'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Installieren und Konfigurieren der AEM Document Security-Erweiterung für Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+# Installieren und Konfigurieren von AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 Dieses Dokument erläutert die Installation und Konfiguration von Adobe Experience Manager Document Security Extension for Microsoft Office.
 
@@ -40,7 +40,7 @@ Bevor Sie Document Security Extension for Microsoft Office installieren, stellen
 >
 >Die Installation einer 32-Bit-Version Document Security Extension auf einem 64-Bit-Betriebssystem ist unterstützt, aber umgekehrt ist es nicht unterstützt. Sie können die 64-Bit-Version der Document Security Extension for Microsoft Office auf einem 32-Bit-Betriebssystem nicht installieren.
 
-### Deaktivieren von McAfee VirusScan  {#disable-mcafee-virusscan}
+### Deaktivieren von McAfee VirusScan {#disable-mcafee-virusscan}
 
 Wenn Sie außerdem einen reibungslosen Start von Office-Programmen auf Computern mit installierter Document Security Extension und aktiviertem McAfee VirusScan mit Überprüfung bei Zugriff sicherstellen möchten, deaktivieren Sie die Option „Pufferüberlaufschutz“ in der McAfee VirusScan-Konsole.
 
@@ -103,7 +103,7 @@ Im Folgenden werden die Schritte zum Erstellen und Konfigurieren einer MSI-Datei
 
 ### Voraussetzungen für die Anpassung des Installationsprogramms {#prerequisites-for-customizing-the-installer}
 
-Verwenden Sie den Orca-Datenbank-Editor, um das Installationsprogramm anzupassen. Die folgenden Schritte beschreiben, wie Sie eine benutzerdefinierte MSI-Datei erstellen, indem Sie eine Kopie der MSI-Installationsdatei mit dem Orca-Datenbank-Editor bearbeiten. Orca ist als Teil des Windows SDK für Windows Server 2008 und .NET Framework 3.5 verfügbar.
+Verwenden Sie den Orca-Datenbank-Editor, um das Installationsprogramm anzupassen. Die folgenden Schritte beschreiben, wie Sie eine benutzerdefinierte MSI-Datei erstellen, indem Sie eine Kopie der MSI-Installationsdatei mit dem Orca-Datenbank-Editor bearbeiten. Orca ist als Teil des Windows SDK für Windows Server 2008 und .NET Framework 3.5 verfügbar.
 
 <!--
 
@@ -117,7 +117,7 @@ For more information about how to edit Microsoft Windows® Installer files using
 
 #### Installieren von Orca {#install-orca}
 
-1. Laden Sie das Windows SDK für Windows Server 2008 und .NET Framework 3.5 herunter.
+1. Laden Sie das Windows SDK für Windows Server 2008 und .NET Framework 3.5 herunter.
 1. Doppelklicken Sie auf die Datei „Orca.msi“ im Ordner „\Microsoft SDK\bin“.
 
    Sie benötigen auch die MSI-Variante der Installationsdatei. Wenden Sie sich an den Adobe-Support, um die neueste Version des MSI-Installationsprogramms zu erhalten.
@@ -185,7 +185,7 @@ Nachdem Sie die Funktion „Richtlinie automatisch anwenden“ aktiviert haben, 
 * Benutzer bearbeitet und speichert ein ungeschütztes Dokument.
 * Benutzer öffnet ein Programm, das mit einem Standarddokument geöffnet wird, bearbeitet das Dokument und speichert es anschließend.
 
-### Konfigurieren der Funktion zum automatischen Anwenden von Richtlinien in der MSI-Datei  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
+### Konfigurieren der Funktion zum automatischen Anwenden von Richtlinien in der MSI-Datei  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
 Nehmen Sie zuerst eine Vorkonfiguration des Installationsprogramms vor, um auf den LiveCycle- oder AEM Forms-Server zu verweisen (wie zuvor in diesem Artikel beschrieben).
 
@@ -269,7 +269,7 @@ Sie können die Benutzeroberfläche ohne Menüband aktivieren/deaktivieren, inde
 
 Sie können die Einstellungen in der Windows-Registrierung ändern, damit ein dynamisches Wasserzeichen gleichzeitig mit vorhandenen Kopf- und Fußzeilen verwendet werden kann. Die Registrierungseinstellungen machen das Wasserzeichen nur während des Druckens verfügbar. Führen Sie die folgenden Schritte durch, um die Registrierung zu aktualisieren und um die Wasserzeichen während des Druckens zu aktivieren.
 
-1. Machen Sie eine Sicherungskopie von der Windows-Registrierung, bevor Sie daran Änderungen vornehmen. Ausführliche Anweisungen finden Sie unter[ Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/en-us/kb/136393).
+1. Machen Sie eine Sicherungskopie von der Windows-Registrierung, bevor Sie daran Änderungen vornehmen. Ausführliche Anweisungen finden Sie unter[ Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/de-de/kb/136393).
 1. Navigieren Sie im Registrierungseditor zu diesem Schlüssel: HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 oder HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Erstellen Sie einen neuen benannten Registrierungswert **WatermarkMode**.
 1. Erstellen Sie im WatermarkMode-Registrierungsschlüssel ein DWORD **WatermarkMode** und der Wert der DWORD **WatermarkMode** bis **1.**
@@ -299,7 +299,7 @@ Ein Benutzer kann versuchen, das geschützte Dokument auf einem Computer zu öff
 
 [Datei laden](assets/templates.zip)
 
-### Struktur der Datei „CommonResources.dll“  {#structure-of-the-commonresources-dll-file}
+### Struktur der Datei „CommonResources.dll“ {#structure-of-the-commonresources-dll-file}
 
 Die Datei „CommonResources.dll“ enthält Informationen zu den Ressourcenvorlagen. Sie enthält zwei Namensbezeichner TEMPLATE_FILE und RT_MANIFEST. Um ein benutzerdefiniertes Titelblatt zu aktivieren, wird der TEMPLATE_FILE-Namensbezeichner geändert. Der TEMPLATE_FILE-Namensbezeichner hat sechs Ressourcen.
 
@@ -363,7 +363,7 @@ Die Datei „CommonResources.dll“ enthält Informationen zu den Ressourcenvorl
    >
    >Löschen und fügen Sie Ressourcentypen nicht in zufälliger Reihenfolge hinzu. Nach „101“, konfigurieren Sie „102“ usw.
 
-### Verpacken Sie die benutzerdefinierte Datei „CommonResources.dll“ mit dem Installationsprogramm von AEM Document Security Extension for Microsoft Office   {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### Verpacken Sie die benutzerdefinierte Datei „CommonResources.dll“ mit dem Installationsprogramm von AEM Document Security Extension for Microsoft Office  {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 Sie können die Datei „CommonResources.dll“ anpassen, um eine benutzerdefinierte Titelseite einzubeziehen. Nach dem Anpassen der Datei können Sie die Originaldatei mit der benutzerdefinierten Datei auf allen Computern manuell ersetzen oder eine automatische Methode zum Ersetzen der Datei wählen.
 
