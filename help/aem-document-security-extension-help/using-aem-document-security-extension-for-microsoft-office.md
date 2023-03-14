@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Verwendung von AEM Document Security Extension for Microsoft Office {#using-aem-document-security-extension-for-microsoft-office}
+# Verwendung von AEM Document Security Extension for Microsoft Office{#using-aem-document-security-extension-for-microsoft-office}
 
 >[!NOTE]
 >

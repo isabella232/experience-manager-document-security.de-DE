@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Fehlerbehebung für AEM Document Security Extension for Microsoft Office {#troubleshooting-aem-document-security-extension-for-microsoft-office}
+# Fehlerbehebung für die AEM Document Security-Erweiterung für Microsoft Office{#troubleshooting-aem-document-security-extension-for-microsoft-office}
 
 ## Fehlerbehebung bei Installations- und Konfigurationsproblemen {#troubleshootinginstallationandconfiguration}
 
@@ -38,6 +38,6 @@ Ausführliche Informationen zu LoadBehavior finden Sie im Artikel [Registrierung
 
 In diesem Abschnitt werden mögliche Probleme mit Ihrer installierten AEM Document Security Extension behandelt.
 
-### Microsoft Office-Programme starten nicht ordnungsgemäß beim Installieren von Document Security Extension  {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
+### Microsoft Office-Programme starten nicht ordnungsgemäß beim Installieren von Document Security Extension {#microsoft-office-applications-dont-start-smoothly-on-installing-document-security-extension}
 
 Wenn Sie außerdem einen reibungslosen Start von Office-Programmen auf Computern mit installierter Document Security Extension und aktiviertem McAfee VirusScan mit Überprüfung bei Zugriff sicherstellen möchten, deaktivieren Sie die Option „Pufferüberlaufschutz“ in der McAfee VirusScan-Konsole.
