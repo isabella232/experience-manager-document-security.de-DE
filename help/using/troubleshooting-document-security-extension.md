@@ -8,25 +8,25 @@ topic-tags: using
 discoiquuid: bdc3f174-e417-4d3e-b3af-972cdcc10133
 exl-id: 98f24032-0774-47f8-bcc5-1ee37b417833
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Fehlerbehebung für die AEM Document Security-Erweiterung für Microsoft Office{#troubleshooting-aem-document-security-extension-for-microsoft-office}
+# Fehlerbehebung für AEM Document Security Extension for Microsoft Office{#troubleshooting-aem-document-security-extension-for-microsoft-office}
 
 ## Fehlerbehebung bei Installations- und Konfigurationsproblemen {#troubleshootinginstallationandconfiguration}
 
-Wenn Sie Probleme beim Installieren und Konfigurieren AEM Document Security Extension for Microsoft Office haben, folgen Sie den Anweisungen im Abschnitt - vor der Installation - unter [Installation](installing-configuring-aemdsext.md) Artikel.
+Wenn Sie Probleme bei der Installation und Konfiguration von AEM Document Security Extension for Microsoft Office haben, stellen Sie sicher, dass Sie die Anweisungen im Abschnitt „Vor der Installation“ des Artikels [Installation](installing-configuring-aemdsext.md) sorgfältig befolgt haben.
 
-Wenn Sie alles gemäß der Dokumentation installiert und konfiguriert haben, lesen Sie die folgenden Abschnitte, um Probleme zu finden, die mit den aktuellen Problemen vergleichbar sind.
+Wenn Sie alles gemäß der Dokumentation installiert und konfiguriert haben, finden Sie in den folgenden Abschnitten Probleme, die den aktuellen Problemen ggf. ähneln.
 
 ### Document Security Extension for Microsoft Office kann nicht geladen werden {#document-security-extension-fails-to-load-for-microsoft-office-applications}
 
 Die LoadBehavior-Eigenschaft in der Windows-Registrierung gibt das Laufzeit-Verhalten des Document Security-Plug-in an. Wenn die LoadBehavior-Eigenschaft auf 3 festgelegt ist, werden alle Plug-ins automatisch geladen. Bevor Sie Document Security Extension for Microsoft Office installieren, stellen Sie sicher, dass die LoadBehavior-Eigenschaft auf 3 gesetzt ist.
 
-1. Erstellen Sie eine Sicherungskopie von Windows Registry, bevor Sie Änderungen daran vornehmen. Detaillierte Anweisungen finden Sie unter [Ändern der Windows Registry](https://support.microsoft.com/de-de/kb/136393).
+1. Erstellen Sie ein Backup der Windows-Registrierung, bevor Sie Änderungen daran vornehmen. Ausführliche Anweisungen finden Sie unter [Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/de-de/kb/136393).
 1. Navigieren Sie im Registrierungs-Editor zu HKEY_CURRENT_USER\Software\Microsoft\Office\Word\Addins\Adobe.DRMIntegration.WordAddin oder HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Word\Addins\Adobe.DRM.
 1. Legen Sie den Wert der Eigenschaft **LoadBehavior** auf 3 fest.
 
