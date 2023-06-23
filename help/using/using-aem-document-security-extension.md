@@ -1,15 +1,15 @@
 ---
 title: Verwendung von AEM Document Security Extension für Microsoft® Office
-description: Sie können steuern, wie Empfänger Ihre richtliniengeschützten Dateien verwenden, unabhängig davon, wie weit Sie sie verteilen. In diesem Dokument wird erläutert, wie Dateien geschützt werden und wie mit geschützten Dateien gearbeitet wird.
+description: Sie können steuern, wie Empfängerinnen und Empfänger Ihre richtliniengeschützten Dateien verwenden, unabhängig davon, in welchem Ausmaß Sie sie verteilen. In diesem Dokument wird erläutert, wie Dateien geschützt werden und wie mit geschützten Dateien gearbeitet wird.
 uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6231'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 ## Schützen von Dateien mithilfe von AEM Document Security Extension {#usingaemdocumentsecurityextensiontoprotectfiles}
 
-Sie können steuern, wie Empfänger Ihre richtliniengeschützten Dateien verwenden, unabhängig davon, wie weit Sie sie verteilen.
+Sie können steuern, wie Empfängerinnen und Empfänger Ihre richtliniengeschützten Dateien verwenden, unabhängig davon, in welchem Ausmaß Sie sie verteilen.
 
 Mit der Document Security Extension für Microsoft® Office können Sie folgende Aufgaben durchführen:
 
@@ -60,11 +60,11 @@ Wenn Sie auf die Document Security-Webseiten über Zertifikatauthentifizierung o
 1. (Optional) Wenn Sie Ihren Benutzernamen und Ihr Kennwort speichern möchten, wählen Sie **Kennwort auf diesem Computer speichern** aus und geben Sie Ihren Benutzernamen und Ihr Kennwort in die entsprechenden Felder ein. Es wird empfohlen, diese Option nicht auszuwählen, wenn andere Personen Zugriff auf den Computer haben könnten.
 1. Klicken Sie auf **Mit diesem Server verbinden**. Document Security Extension für Microsoft® Office versucht, eine Verbindung mit dem angegebenen Server herzustellen. Führen Sie je nach angegebenem Authentifizierungstyp einen der folgenden Schritte aus:
 
-   **Benutzername und Kennwort**
+   **Benutzername und Passwort**
 
-   Geben Sie den Benutzernamen und das Kennwort ein, die Sie vom Document Security-Administrator erhalten haben.
+   Geben Sie den Benutzernamen und das Passwort ein, die Sie vom Document Security-Admin erhalten haben.
 
-   **Zertifikatauthentifizierung**
+   **Zertifikatsauthentifizierung**
 
    Wählen Sie diese Option aus, um das Zertifikat auszuwählen, das Sie erhalten und in Ihrem persönlichen Zertifikatspeicher installiert haben.
 
@@ -87,7 +87,7 @@ Wenn Sie keine Verbindung zu Document Security herstellen können, wird eine Mel
 
 ### Verwenden von Authentifizierungsanbietern von Drittanbietern {#using-third-party-authentication-providers}
 
-Sie können externe Authentifizierungsanbieter in AEM Forms Document Security verwenden. Mit diesen Authentifizierungsanbietern können Sie eine zusätzliche Zugriffsebene zu den geschützten Dokumenten hinzufügen. AEM Forms Document Security unterstützt die folgenden erweiterten Authentifizierungs-Workflows:
+Sie können externe Authentifizierungsanbieter in AEM Forms Document Security verwenden. Mit diesen Authentifizierungsanbietern können Sie eine zusätzliche Zugriffsebene zu den geschützten Dokumenten hinzufügen. AEM Forms Document Security unterstützt die folgenden Workflows zur erweiterten Authentifizierung:
 
 * Erweiterte Authentifizierung mit AEM Forms-Standard-URL
 * Erweiterte Authentifizierung mit einer benutzerdefinierten URL
@@ -97,14 +97,14 @@ Sie können externe Authentifizierungsanbieter in AEM Forms Document Security ve
 
 #### Erweiterte Authentifizierung mit AEM Forms-Standard-URL {#extended-authentication-using-default-aem-forms-url}
 
-Sie können die standardmäßige AEM Forms-URL für die erweiterte Authentifizierung verwenden. Die Standard-Landingpage enthält das Branding von Adoben. Darüber hinaus werden bei der Verwendung der standardmäßigen AEM Forms-URL für die erweiterte Authentifizierung die standardmäßigen AEM Forms-Einstellungen verwendet.
+Sie können die standardmäßige AEM Forms-URL für die erweiterte Authentifizierung verwenden. Die Standard-Landingpage enthält das Branding von Adobe. Darüber hinaus werden bei der Verwendung der standardmäßigen AEM Forms-URL für die erweiterte Authentifizierung die standardmäßigen AEM Forms-Einstellungen verwendet.
 
-Führen Sie die folgenden Schritte aus, um die erweiterte Authentifizierung mit der standardmäßigen Adobe-Landing-URL zu aktivieren:
+Führen Sie zum Aktivieren der erweiterten Authentifizierung mit der standardmäßigen URL für die Adobe-Startseite folgende Schritte durch:
 
-1. Öffnen Sie die AEM Forms Admin-Benutzeroberfläche.
-1. Navigieren Sie zu Dienste > Document Security > Konfiguration > Serverkonfiguration.
-1. Aktivieren Sie die Option Erweiterte Authentifizierung zulassen .
-1. Geben Sie die Standard-URL für die erweiterte Authentifizierungs-Landingpage an. Die Standard-URL lautet http://localhost:8080/edc/extendedauthentication/welcome.jsp.
+1. Öffnen Sie die Admin-Benutzeroberfläche in AEM Forms.
+1. Navigieren Sie zu „Dienste“ > „Document Security“ > „Konfiguration“ > „Server-Konfiguration“.
+1. Aktivieren Sie die Option „Erweiterte Authentifizierung zulassen“.
+1. Geben Sie die standardmäßige URL für die Landingpage der erweiterten Authentifizierung an. Die standardmäßige URL lautet: http://localhost:8080/edc/extendedauthentication/welcome.jsp.
 
    Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -117,27 +117,27 @@ Führen Sie die folgenden Schritte aus, um die erweiterte Authentifizierung mit 
 
 #### Erweiterte Authentifizierung mit einer benutzerdefinierten Startseiten-URL {#extended-authentication-with-a-custom-landing-url}
 
-Sie können eine benutzerdefinierte URL für die erweiterte Authentifizierung verwenden. Es bietet die Flexibilität, eine benutzerdefinierte Authentifizierungsseite mit benutzerdefiniertem Branding anzuzeigen. Beispiel: Branding für Ihr Unternehmen.
+Sie können auch eine benutzerdefinierte URL für die erweiterte Authentifizierung verwenden. Dies bietet die Flexibilität, eine benutzerdefinierte Authentifizierungsseite mit benutzerdefiniertem Branding anzuzeigen. Zum Beispiel ein Branding für Ihre Organisation.
 
-Sie können die benutzerdefinierte Authentifizierungsseite in eine WAR-Datei packen und die WAR-Datei auf einem AEM Forms-Server bereitstellen. Die WAR-Datei enthält eine vollständige Logik zum Akzeptieren von Benutzeranmeldeinformationen und zum Authentifizieren gegenüber dem AEM Forms-Server. AEM Forms Document Security erfordert für die benutzerdefinierte Authentifizierungsseite die folgenden Anforderungen:
+Sie können die benutzerdefinierte Authentifizierungsseite in eine WAR-Datei packen und die WAR-Datei auf einem AEM Forms-Server bereitstellen. Die WAR-Datei enthält eine vollständige Logik zum Akzeptieren von Benutzeranmeldeinformationen und zum Authentifizieren gegenüber dem AEM Forms-Server. AEM Forms Document Security hat für die benutzerdefinierte Authentifizierungsseite die folgenden Anforderungen:
 
-* Auf der Authentifizierungsseite sollte Benutzername als j_username und Kennwort als j_password gesendet werden. Die Seite sollte auch die source_url und login_url als ausgeblendete Parameter senden.
+* Die Authentifizierungsseite sollte den Benutzernamen als „j_username“ und das Passwort als „j_password“ senden. Die Seite sollte auch die „source_url“ und „login_url“ als versteckte Parameter senden.
 * Bei erfolgreicher Authentifizierung sollte die Seite automatisch geschlossen werden.
 
 So aktivieren Sie die erweiterte Authentifizierung mit einer benutzerdefinierten Startseiten-URL:
 
 1. Stellen Sie die benutzerdefinierte Authentifizierungs-WAR-Datei auf dem AEM Forms-Server bereit.
-1. Öffnen Sie die AEM Forms Admin-Benutzeroberfläche.
-1. Navigieren Sie zu Dienste > Document Security > Konfiguration > Serverkonfiguration.
-1. Aktivieren Sie die Option Erweiterte Authentifizierung zulassen und geben Sie die benutzerdefinierte Landing-URL für erweiterte Authentifizierung an.
+1. Öffnen Sie die Admin-Benutzeroberfläche in AEM Forms.
+1. Navigieren Sie zu „Dienste“ > „Document Security“ > „Konfiguration“ > „Server-Konfiguration“.
+1. Aktivieren Sie die Option „Erweiterte Authentifizierung zulassen“ und geben Sie die benutzerdefinierte Startseiten-URL für die erweiterte Authentifizierung an.
 1. Fügen Sie der Datei config.xml unter dem SSO-Knoten nach dem Eintrag *&lt;node name=&quot;AllowedUrls&quot;>* die folgenden Einträge hinzu:
 
    >[!NOTE]
    &lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
-   Schrittweise Informationen zum Aktualisieren der Datei &quot;config.xml&quot;finden Sie unter [Manuelles Bearbeiten der Document Security-Konfigurationsdatei](https://helpx.adobe.com/de/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file).
+   Schrittweise Informationen zum Aktualisieren der Datei „config.xml“ finden Sie unter [Manuelles Bearbeiten der Document Security-Konfigurationsdatei](https://helpx.adobe.com/de/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file).
 
-   Jetzt ist AEM Forms Document Security für die Verwendung der erweiterten Authentifizierung mit einer benutzerdefinierten Landingpage-URL konfiguriert
+   Jetzt ist AEM Forms Document Security konfiguriert, um die erweiterte Authentifizierung mit einer benutzerdefinierten Startseiten-URL zu verwenden
 
 #### Standardmäßiger erweiterter Authentifizierungs-Workflow mit externen Identitätsanbietern, die auf dem AEM Forms-Server konfiguriert sind {#default-extended-authentication-workflow-with-third-party-identity-providers-configured-on-aem-forms-server}
 
@@ -162,7 +162,7 @@ Sie können eine benutzerdefinierte Seite auch angeben, um alle Authentifizierun
 
 1. Packen Sie die benutzerdefinierte Authentifizierungsseite in eine WAR-Datei und stellen Sie die WAR-Datei auf einem AEM Forms-Server bereit. Die WAR-Datei enthält eine vollständige Logik zum Akzeptieren von Benutzeranmeldeinformationen und zum Authentifizieren gegenüber dem AEM Forms-Server.
 1. Öffnen Sie die Benutzeroberfläche von AEM Forms Admin und navigieren Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL SAML Service Provider-Einstellungen]**.
-1. Fügen Sie Folgendes zum Feld &quot;Benutzerdefinierte Eigenschaften&quot;hinzu und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Fügen Sie im Feld „Benutzerdefinierte Eigenschaften“ Folgendes hinzu und klicken Sie auf **[!UICONTROL Speichern]**:
 
    *saml.sp.discovery.url=/demoJSP/saml_discovery.jsp*
 
@@ -178,9 +178,9 @@ Wenn Sie noch kein Document Security-Konto haben, kann Document Security den Reg
 Nachdem Sie sich registriert und Ihr Konto aktiviert haben, können Sie richtliniengeschützte Dateien verwenden, zu deren Nutzung Sie über eine Richtlinie berechtigt wurden.
 
 >[!NOTE]
-Wenn Sie eine richtliniengeschützte Datei erhalten und kein Document Security-Konto haben oder eine Einladung zur Registrierung erhalten, wenden Sie sich an die Person, die Ihnen die Datei zur Unterstützung geschickt hat.
+Wenn Sie eine richtliniengeschützte Datei empfangen und kein Document Security-Konto haben oder eine Einladung zum Registrieren erhalten, wenden Sie sich an die Person, die Ihnen die Datei geschickt hat.
 
-Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten, können Sie sich registrieren, indem Sie die URL in der E-Mail verwenden, um die Online-Registrierungsseite zu öffnen. Nach der Registrierung erhalten Sie einen zweiten Hinweis zur Aktivierung Ihres Kontos.
+Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten, können Sie sich registrieren, indem Sie die URL in der E-Mail verwenden, um die Online-Registrierungsseite zu öffnen. Nach der Registrierung erhalten Sie eine weitere Benachrichtigung zur Aktivierung Ihres Kontos.
 
 #### Beziehen eines externen Benutzerkontos {#obtain-an-external-user-account}
 
@@ -250,7 +250,7 @@ Einige der Richtlinieneinstellungen, die für das Erstellen von Richtlinien auf 
    <td><p>Dateiinhalte können in andere Dateien kopiert werden.</p></td>
   </tr>
   <tr>
-   <td><p>Screen Reader </p></td>
+   <td><p>Bildschirmlesehilfe </p></td>
    <td><p>Bildschirmlesehilfen (Geräte für Benutzer mit Sehbehinderung) können den Dateiinhalt lesen.</p></td>
   </tr>
   <tr>
@@ -324,7 +324,7 @@ Weitere Informationen zum Erstellen und Verwalten von Richtlinien finden Sie in 
 
 Sie können alle verfügbaren Richtlinien auf eine Datei anwenden, einschließlich der Richtlinien, die Sie erstellt haben, und der Richtlinien, die Teil der Richtliniensätze sind, auf die Sie Zugriff haben. Bevor Sie eine Richtlinie anwenden, müssen Sie die Datei speichern.
 
-Nachdem Sie eine Richtlinie angewendet haben, wird sie der Liste &quot;Zuletzt verwendet&quot;im Menü AEM Document Security hinzugefügt, damit Sie die am häufigsten verwendeten Richtlinien leichter anwenden können. Wenn Sie mehr als eine Instanz von Document Security verwenden, zeigt die Liste &quot;Zuletzt verwendet&quot;nur die Richtlinien für den Server an, mit dem Sie derzeit verbunden sind, oder für Ihren Standardserver, wenn Sie sich noch nicht bei einer Instanz von Document Security angemeldet haben.
+Nachdem Sie eine Richtlinie angewendet haben, wird sie der Liste „Zuletzt verwendet“ im Menü „AEM Document Security“ hinzugefügt, damit Sie Ihre am meisten verwendeten Richtlinien einfach und schnell anwenden können. Bei mehreren Instanzen von Document Security enthält die Liste „Zuletzt verwendet“ nur die Richtlinien für den Server, mit dem Sie gegenwärtig verbunden sind, oder für Ihren Standard-Server, falls Sie sich noch nicht bei einer Instanz von Document Security angemeldet haben.
 
 >[!NOTE]
 Sie können Richtlinien nur auf Word-Dokumentdateien (.doc, auch .docx und .docm in Microsoft® Office 2010 und 2013), Excel-Arbeitsmappendateien (.xls, auch .xlsx und .xlsm in Microsoft® Office 2010 und 2013) und PowerPoint-Präsentationsdateien (.ppt, auch .pptx und .pptm in Microsoft® Office 2010 und 2013) anwenden. Richtlinien können nicht auf Word-Vorlagendateien (.dot), Excel-Vorlagendateien (.xlt) und PowerPoint-Design-Vorlagendateien (.pot) angewendet werden.
@@ -347,9 +347,9 @@ Sie können Richtlinien nur auf Word-Dokumentdateien (.doc, auch .docx und .docm
 
 Richtliniengeschützte Dateien enthalten geistiges Eigentum, das Eigentum des Dateiherausgebers ist und durch Document Security geschützt wird.
 
-Sie können richtliniengeschützte Dateien verwenden, unabhängig davon, ob Sie intern oder extern in der Organisation des Dateiherausgebers tätig sind. Um richtliniengeschützte Dateien zu öffnen, müssen Sie von Document Security erkannt werden, entweder durch Aufnahme in eine verknüpfte LDAP- oder Active Directory-Liste, die als lokaler Benutzer für LiveCycle oder AEM Forms on JEE hinzugefügt wird, oder durch Registrierung bei Document Security nach der Einladung als Benutzer.
+Sie können richtliniengeschützte Dateien verwenden, unabhängig davon, ob Sie intern oder extern in der Organisation des Dateiherausgebers tätig sind. Um richtliniengeschützte Dateien zu öffnen, müssen Sie von Document Security erkannt werden, entweder durch Aufnahme in eine verknüpfte LDAP- oder Active Directory-Liste, durch Hinzufügen als lokale Benutzende für LiveCycle oder AEM Forms on JEE oder durch Registrierung bei Document Security, nachdem Sie als Benutzende eingeladen wurden.
 
-Wenn Sie eine richtliniengeschützte Datei erhalten und kein Document Security-Konto haben oder eine Einladung zur Registrierung erhalten, wenden Sie sich an die Person, die Ihnen die Datei zur Unterstützung geschickt hat.
+Wenn Sie eine richtliniengeschützte Datei empfangen und kein Document Security-Konto haben oder eine Einladung zum Registrieren erhalten, wenden Sie sich an die Person, die Ihnen die Datei geschickt hat.
 
 ### Arbeiten mit richtliniengeschützten Dateien in Microsoft® Office {#working-with-policy-protected-files-in-microsoft-office}
 
@@ -368,7 +368,7 @@ Sie können richtliniengeschützte Dateien wie jede andere Datei öffnen. Wenn S
 
 Wenn Sie nicht berechtigt sind, die Datei zu öffnen, werden Sie darüber informiert, dass der Zugriff verweigert wird. Wenn die Zugriffsrechte für die Datei entzogen wurden, werden Sie möglicherweise auch zu einer aktualisierten Version der Datei weitergeleitet, falls eine solche verfügbar ist. Wenn Sie eine richtliniengeschützte Datei nicht öffnen können, wenden Sie sich an den Herausgeber der Datei, um weitere Unterstützung zu erhalten.
 
-Wenn eine geschützte Datei geöffnet ist, gibt der Text in der Titelleiste, der auf den Dateinamen folgt, an, dass die Datei durch AEM Document Security geschützt ist.
+Wenn eine geschützte Datei geöffnet ist, gibt der in der Titelleiste auf den Dateinamen folgende Text an, dass die Datei von AEM Document Security geschützt wird.
 
 Wenn Sie ein geschütztes Dokument in Document Security Extension für Microsoft® Office von SharePoint Server aus öffnen, stellen Sie sicher, dass das mit dem Dateityp verknüpfte Microsoft® Office-Programm, z. B. Microsoft® Word, Microsoft ®Excel oder Microsoft® PowerPoint, geöffnet ist. Wenn Sie versuchen, die Datei zu öffnen, ohne das zugehörige Programm geöffnet zu haben, wird das Dokument möglicherweise nicht geöffnet. Es wird eine Fehlermeldung angezeigt, die besagt, dass Sie das entsprechende Plug-in installieren müssen. Zusätzlich zum Öffnen des erforderlichen Programms wird empfohlen, dass Sie den Cache-Ordner leeren, bevor Sie ein geschütztes Dokument in Document Security Extension für Microsoft® Office vom SharePoint Server aus öffnen. Wenn Sie ein geschütztes Dokument über SharePoint Server öffnen, werden alle Berechtigungen für das Dokument deaktiviert, unabhängig von der angewendeten Richtlinie.
 
@@ -389,7 +389,7 @@ Wenn Sie eine Richtlinie nicht von einer geschützten Datei entfernen können, w
 
 ### Anzeigen von Sicherheitseinstellungen {#viewing-security-settings}
 
-Sie können die Berechtigungen, die Sie für die aktuelle Datei zum Drucken, Kopieren, Ändern und Zugreifen auf Offline haben, zusammen mit der Gültigkeitsdauer der Datei anzeigen.
+Sie können die Berechtigungen anzeigen, die Sie für die aktuelle Datei zum Drucken, Kopieren, Ändern und Offline-Zugriff haben, sowie die Gültigkeitsdauer der Datei.
 
 In Document Security Extension für Microsoft® Office 2010 zeigt die Gruppe „Sicherheitsstatus“ auf der Registerkarte „Document Security“ Ihre Berechtigungen für die Datei an.
 
@@ -444,7 +444,7 @@ Document Security Extension für Microsoft® Office unterstützt die folgenden W
   </tr>
   <tr>
    <td><p>Als Hintergrund verwenden</p></td>
-   <td><p>Das Anzeigeverhalten eines dynamischen Wasserzeichens ist dasselbe, unabhängig davon, ob Sie „Als Hintergrund verwenden“ auswählen.</p><p>Bei Word 2010 und 2013 wird das dynamische Wasserzeichen nur in der Druckansicht und in der Druckvorschau angezeigt. </p><p>Auch für Excel 2010 und 2013 wird es in der Druckvorschau und in den Seitenlayoutansichten angezeigt.</p></td>
+   <td><p>Das Anzeigeverhalten eines dynamischen Wasserzeichens ist dasselbe, unabhängig davon, ob Sie „Als Hintergrund verwenden“ auswählen.</p><p>Bei Word 2010 und 2013 wird das dynamische Wasserzeichen nur in der Druckansicht und in der Druckvorschau angezeigt. </p><p>Auch für Excel 2010 und 2013 wird es in der Druckvorschau und den Seiten-Layout-Ansichten dargestellt.</p></td>
   </tr>
   <tr>
    <td><p>Vertikale Position</p></td>
@@ -499,7 +499,7 @@ Sie können die Möglichkeit zum Öffnen von Dateien, die Sie geschützt haben, 
 
 1. Geben Sie eine anzuzeigende Meldung und, falls verfügbar, eine URL für die aktualisierte Version an und klicken Sie auf **OK**.
 
-Weitere Informationen zum Sperren von Dateizugriffsberechtigungen finden Sie unter [Hilfe für Endbenutzer von Document Security](https://help.adobe.com/de_DE/AEMForms/6.1/RMHelp/).
+Weitere Informationen zum Sperren von Dateizugriffsberechtigungen finden Sie in der [Hilfe für Endbenutzende von Document Security](https://help.adobe.com/de_DE/AEMForms/6.1/RMHelp/).
 
 Auf den Document Security-Web-Seiten können Zugriffsberechtigungen reaktiviert werden.
 
@@ -769,7 +769,7 @@ ausblenden, Hintergrund formatieren** Nicht verfügbar für eine richtliniengesc
 
 ## Verwendung von Authentifizierung-Drittanbietern {#use-third-party-authentication-providers}
 
-Sie können in AEM Forms Document Security externe Authentifizierungsanbieter verwenden. Mit diesen Authentifizierungsanbietern können Sie eine zusätzliche Zugriffsebene zu den geschützten Dokumenten hinzufügen. AEM Forms Document Security unterstützt die folgenden erweiterten Authentifizierungs-Workflows:
+Sie können in AEM Forms Document Security externe Authentifizierungsanbieter verwenden. Mit diesen Authentifizierungsanbietern können Sie eine zusätzliche Zugriffsebene zu den geschützten Dokumenten hinzufügen. AEM Forms Document Security unterstützt die folgenden Workflows zur erweiterten Authentifizierung:
 
 * Erweiterte Authentifizierung mit AEM Forms-Standard-URL
 * Erweiterte Authentifizierung mit einer benutzerdefinierten URL
