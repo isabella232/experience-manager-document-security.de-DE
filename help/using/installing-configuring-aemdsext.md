@@ -7,9 +7,9 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2764'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -25,20 +25,20 @@ Dieses Dokument enthält Informationen zu den folgenden Aufgaben:
 
 ## Vor der Installation {#before-you-install}
 
-Bevor Sie Document Security Extension for Microsoft Office installieren, stellen Sie Folgendes sicher:
+Bevor Sie Document Security Extension für Microsoft Office installieren, stellen Sie Folgendes sicher:
 
-* Sie haben die [Versionshinweise](document-security-extension-release-notes.md).
+* Sie haben die [Versionshinweise](document-security-extension-release-notes.md) gelesen.
 * Microsoft Office ist aktiviert. Aktivierungsdialogfeld wird nicht angezeigt beim Öffnen von Microsoft Office-Programmen.
 * Neueste Service Packs für Microsoft Windows und Microsoft Office sind installiert.
 * Wenn Sie Document Security for Microsoft Office für eine nicht unterstützte Sprache installieren, müssen Sie das Office-Programm mindestens einmal öffnen.
 
 >[!NOTE]
 >
->Installieren Sie die Software nicht in einem Ordner, dessen Name Doppelbyte-Zeichen enthält. Wenn Sie dies tun, wird das Menü AEM Document Security nicht in Microsoft Office angezeigt.
+>Installieren Sie die Software nicht in einem Ordner, dessen Name Doppel-Byte-Zeichen enthält. Wenn Sie dies tun, wird das AEM Document Security-Menü nicht in Microsoft Office angezeigt.
 
 >[!NOTE]
 >
->Die Installation einer 32-Bit-Version der Document Security-Erweiterung auf einem 64-Bit-Betriebssystem wird unterstützt, die umgekehrte Methode wird jedoch nicht unterstützt. Sie können die 64-Bit-Version der Document Security-Erweiterung für Microsoft Office nicht auf einem 32-Bit-Betriebssystem installieren.
+>Die Installation einer 32-Bit-Version der Document Security Extension auf einem 64-Bit-Betriebssystem wird unterstützt, aber umgekehrt wird es nicht unterstützt. Sie können die 64-Bit-Version der Document Security Extension für Microsoft Office nicht auf einem 32-Bit-Betriebssystem installieren.
 
 ### Deaktivieren von McAfee VirusScan {#disable-mcafee-virusscan}
 
@@ -54,7 +54,7 @@ AEM Document Security Extension for Microsoft Office unterstützt keine Plug-ins
 
 Stellen Sie sicher, dass die folgenden Mindestkonfigurationen für die Installation der Document Security Extension verwendet werden:
 
-* 32-Bit- oder 64-Bit-Versionen von Microsoft Windows 7 oder Windows 10 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht) oder Chinesisch (traditionell).
+* 32-Bit- oder 64-Bit-Versionen von Microsoft Windows 7 oder Windows 10 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch, Chinesisch (vereinfacht oder traditionell).
    **Hinweis:** *Es wird erwartet, dass Document Security Extension for Microsoft Office auf Microsoft Surface-Geräten funktioniert.*
 
 * 32-Bit- oder 64-Bit-Versionen Microsoft Office 2013, 2016, 2019 und Microsoft Office Desktop-Programmen, die als Teil von Office 365 auf Englisch, Französisch, Deutsch, Japanisch, Italienisch, Spanisch, Portugiesisch (Brasilien), Koreanisch oder Chinesisch (vereinfacht und traditionell) installiert sind.
@@ -71,9 +71,9 @@ Um Document Security Extension zu verwenden, stellen Sie sicher, dass Sie eine V
 
 ## Installieren von Document Security Extension for Microsoft Office {#installing-document-security-extension-for-microsoft-office}
 
-Sie können das Installationsprogramm von der [Download-Seite](download-installer.md) herunterladen. Sie können die ausführbare Datei des Installationsprogramms nicht direkt anpassen, sie kann jedoch interaktiv oder im Hintergrund installiert werden. Melden Sie sich zur Installation der Software bei Windows als Administrator an.
+Sie können das Installationsprogramm von der [Download-Seite](download-installer.md) herunterladen. Sie können die ausführbare Datei des Installationsprogramms nicht direkt anpassen, sie kann jedoch interaktiv oder im Hintergrund installiert werden. Melden Sie sich zur Installation der Software bei Windows als Admin an.
 
-Separate Installationsprogramme sind für 32-Bit- und 64-Bit-Versionen von Microsoft Office verfügbar. Laden Sie für die 32-Bit-Version von Microsoft Office DocumentSecurityExtensionforMicrosoftOffice.exe herunter. Für die 64-Bit-Version von Microsoft Office laden Sie DocumentSecurityExtensionforMicrosoftOffice64.exe herunter.
+Separate Installationsprogramme sind für 32-Bit- und 64-Bit-Versionen von Microsoft Office verfügbar. Laden Sie für die 32-Bit-Version von Microsoft Office „DocumentSecurityExtensionforMicrosoftOffice.exe“ herunter. Für die 64-Bit-Version von Microsoft Office laden Sie „DocumentSecurityExtensionforMicrosoftOffice64.exe“ herunter.
 
 >[!NOTE]
 >
@@ -181,9 +181,9 @@ Sie können eine der folgenden Optionen angeben:
 
 Nachdem Sie die Funktion „Richtlinie automatisch anwenden“ aktiviert haben, wird das Dokument in den folgenden Fällen mit der Standardrichtlinie geschützt:
 
-* Benutzer bearbeitet und speichert ein neu erstelltes Dokument.
-* Benutzer bearbeitet und speichert ein ungeschütztes Dokument.
-* Benutzer öffnet ein Programm, das mit einem Standarddokument geöffnet wird, bearbeitet das Dokument und speichert es anschließend.
+* Benutzer bearbeitet und speichert ein neu erstelltes Dokument
+* Benutzer bearbeitet und speichert ein ungeschütztes Dokument
+* Benutzer öffnet ein Programm, das mit einem Standarddokument geöffnet wird, bearbeitet das Dokument und speichert es anschließend
 
 ### Konfigurieren der Funktion zum automatischen Anwenden von Richtlinien in der MSI-Datei  {#configure-the-auto-apply-policy-feature-in-the-msi-file}
 
@@ -234,7 +234,7 @@ Nehmen Sie zuerst eine Vorkonfiguration des Installationsprogramms vor, um auf d
 
 >[!NOTE]
 >
->Die Option `AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE` ist nützlich, wenn Sie Kunden daran erinnern wollen, alle Dokumente zu schützen, ohne sie dazu zu zwingen. Dies ist auch nützlich, wenn Sie wissen, dass Benutzer Dokumente erstellen, während sie vom Netzwerk getrennt sind. Sie möchten sie nicht daran hindern, Dokumente zu erstellen und zu speichern.
+>Die Option `AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE` ist nützlich, wenn Sie Kunden daran erinnern wollen, alle Dokumente zu schützen, ohne sie dazu zu zwingen. Dies ist auch nützlich, wenn Sie wissen, dass Benutzende Dokumente erstellen, während sie vom Netzwerk getrennt sind. Sie möchten sie nicht daran hindern, Dokumente zu erstellen und zu speichern.
 
 1. Speichern Sie die bearbeitete Datei in demselben Verzeichnis, in dem sich die ursprüngliche MSI-Datei befindet.
 
@@ -251,13 +251,13 @@ Wenn die Option „Richtlinie automatisch anwenden“ aktiviert ist, werden alle
 * Wenn ein Benutzer ein neues Dokument erstellt, es bearbeitet und speichert.
 * Wenn ein Benutzer ein ungeschütztes Dokument öffnet, bearbeitet und speichert.
 
-Informationen zum Konfigurieren der automatischen Anwendung von Richtlinien finden Sie unter [Automatische Anwendung der Standardrichtlinie konfigurieren](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
+Informationen zum Konfigurieren der automatischen Anwendung von Richtlinien finden Sie unter [Konfigurieren der automatischen Anwendung der Standardrichtlinie](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
 
 ## Benutzeroberfläche ohne Menüband aktivieren {#enable-ribbon-less-user-interface}
 
-Sie können die Benutzeroberfläche ohne Menüband aktivieren/deaktivieren, indem Sie die Einstellungen in der Windows Registry ändern. Führen Sie die folgenden Schritte aus, um die Registry zu aktualisieren und die Benutzeroberfläche ohne Menüband zu aktivieren:
+Sie können die Benutzeroberfläche ohne Menüband aktivieren/deaktivieren, indem Sie die Einstellungen in der Windows-Registrierung ändern. Führen Sie die folgenden Schritte aus, um die Registrierung zu aktualisieren und die Benutzeroberfläche ohne Menüband zu aktivieren:
 
-1. Erstellen Sie eine Sicherungskopie von Windows Registry, bevor Sie Änderungen daran vornehmen. Detaillierte Anweisungen finden Sie unter [Ändern der Windows Registry](https://support.microsoft.com/de-de/kb/136393).
+1. Erstellen Sie ein Backup der Windows-Registrierung, bevor Sie Änderungen daran vornehmen. Ausführliche Anweisungen finden Sie unter [Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/de-de/kb/136393).
 1. Navigieren Sie im Registrierungs-Editor zu HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 oder HKEY_LOCAL_MACHINE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Erstellen Sie einen neuen Dword-Wert (32 Bit) mit dem Namen **HidePluginUI**.
 
@@ -267,18 +267,18 @@ Sie können die Benutzeroberfläche ohne Menüband aktivieren/deaktivieren, inde
 
 ## Aktivieren des Wasserzeichens zum Drucken in Microsoft Excel {#enable-watermark-for-printing-in-microsoft-excel}
 
-Sie können die Einstellungen der Windows-Registrierung ändern, damit dynamische Wasserzeichen zusammen mit vorhandenen Kopf- und Fußzeilen vorhanden sind. Die Registrierungseinstellungen machen das Wasserzeichen nur während des Druckens verfügbar. Führen Sie die folgenden Schritte aus, um die Registrierung zu aktualisieren und Wasserzeichen während des Druckens zu aktivieren:
+Sie können die Einstellungen in der Windows-Registrierung ändern, damit ein dynamisches Wasserzeichen gleichzeitig mit vorhandenen Kopf- und Fußzeilen verwendet werden kann. Die Registrierungseinstellungen machen das Wasserzeichen nur während des Druckens verfügbar. Führen Sie die folgenden Schritte durch, um die Registrierung zu aktualisieren und um die Wasserzeichen während des Druckens zu aktivieren.
 
-1. Erstellen Sie eine Sicherungskopie von Windows Registry, bevor Sie Änderungen daran vornehmen. Detaillierte Anweisungen finden Sie unter [Ändern der Windows Registry](https://support.microsoft.com/de-de/kb/136393).
+1. Erstellen Sie ein Backup der Windows-Registrierung, bevor Sie Änderungen daran vornehmen. Ausführliche Anweisungen finden Sie unter [Wie ändere ich die Windows-Registrierung](https://support.microsoft.com/de-de/kb/136393).
 1. Navigieren Sie im Registrierungs-Editor zu HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 oder HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
-1. Neuen Registrierungsschlüssel erstellen **WatermarkMode**.
-1. Erstellen Sie im WatermarkMode-Registrierungsschlüssel ein DWORD **WatermarkMode** und legen Sie den Wert von DWORD fest **WatermarkMode** nach **1**.
+1. Erstellen Sie einen neuen Registrierungsschlüssel namens **WatermarkMode**.
+1. Erstellen Sie im WatermarkMode-Registrierungsschlüssel ein DWORD **WatermarkMode**, und setzen Sie den Wert des DWORD **WatermarkMode** auf **1**.
 
-1. Schließen Sie den Registrierungs-Editor.
+1. Schließen Sie den Registrierungseditor.
 
 >[!NOTE]
 >
->In Windows Explorer können Sie das Menü Datei oder das Kontextmenü verwenden, um ein Microsoft Excel-Dokument zu erstellen. Bei Dokumenten, die mit angegebenen Methoden erstellt wurden, kann das Druckdatum nicht abgerufen oder geändert werden. Dies ist eine Einschränkung von Microsoft Excel. AEM Document Security-Wasserzeichen hängen vom Druckdatum des Dokuments ab. Bei solchen Dokumenten wird das Wasserzeichen also auf ein vorheriges Datum zurückgesetzt. Außerdem werden Kopf- und Fußzeilen nicht beibehalten.
+>In Windows Explorer können Sie das Dateimenü oder Kontextmenü verwenden, um ein Microsoft Excel-Dokument zu erstellen. Bei Dokumenten, die mit angegebenen Methoden erstellt wurden, kann das Druckdatum nicht abgerufen oder geändert werden. Dies ist eine Einschränkung von Microsoft Excel. AEM-Dokumentensicherheits-Wasserzeichen hängen von dem Druckdatum des Dokuments ab. Bei solchen Dokumenten wird das Wasserzeichen also auf ein vorheriges Datum zurückgesetzt. Außerdem werden Kopf- und Fußzeilen nicht beibehalten.
 
 ## Eine benutzerdefinierte Titelseite hinzufügen {#coverpage}
 
@@ -288,20 +288,20 @@ Ein Benutzer kann versuchen, das geschützte Dokument auf einem Computer zu öff
 
 * Erstellen Sie eine Sicherungskopie der Datei „CommonResources.dll“. Der Standardpfad lautet:
 
-   * **(Für 32-Bit Office auf 32-Bit-Computern)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
+   * **(Für 32-Bit-Office auf 32-Bit-Computern)** C:\Programme\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
    * **(Für 32-Bit Office auf 64-Bit Computern)** C:\Program Files (x86)\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
-   * **(Für 64-Bit Office auf 64-Bit-Computern)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
+   * **(Für 64-Bit-Office auf 64-Bit-Computern)** C:\Programme\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
-* Stellen Sie sicher, dass Microsoft Visual Studio 2008 oder höher installiert ist. Sie können auch jedes andere Dienstprogramm verwenden, um die DLL-Dateien zu bearbeiten.
-* Extrahieren Sie das templates.zip-Archiv. Das Archiv enthält .xlsx-, .docx- und .pptx-Vorlagen für die Titelseite. Verwenden Sie nur bereitgestellte Vorlagen für Dateitypen .xlsx, .docx und .pptx. Sie können eigene Vorlagen für andere Dateitypen erstellen. Passen Sie Vorlagen an, um benutzerdefinierte Nachrichten und Anweisungen einzuschließen. Die Datei „template.zip“ finden Sie unter:
+* Stellen Sie sicher, dass Microsoft Visual Studio 2008 oder höher installiert ist. Sie können auch ein anderes Dienstprogramm zum Bearbeiten von DLL-Dateien verwenden.
+* Entpacken Sie das templates.zip-Archiv. Das Archiv enthält Vorlagen für die Titelseite vom Typ .xlsx, .docx und .pptx. Verwenden Sie nur bereitgestellte Vorlagen für die Dateitypen .xlsx, .docx und .pptx. Sie können auch Ihre eigenen Vorlagen für andere Dateitypen erstellen. Passen Sie Vorlagen an, um benutzerdefinierte Nachrichten und Anweisungen einzubeziehen. Die Datei „template.zip“ finden Sie unter:
 
 [Datei laden](assets/templates.zip)
 
 ### Struktur der Datei „CommonResources.dll“ {#structure-of-the-commonresources-dll-file}
 
-Die Datei CommonResources.dll enthält Informationen zu den Ressourcenvorlagen. Es enthält zwei Namenskennungen TEMPLATE_FILE und RT_MANIFEST. Um eine benutzerdefinierte Titelseite zu aktivieren, wird die TEMPLATE_FILE-Namenskennung geändert. Der TEMPLATE_FILE-Namensbezeichner verfügt über sechs Ressourcen:
+Die Datei „CommonResources.dll“ enthält Informationen zu den Ressourcenvorlagen. Sie enthält zwei Namenskennungen „TEMPLATE_FILE“ und „RT_MANIFEST“. Um eine benutzerdefinierte Titelseite zu aktivieren, wird die Namenskennung „TEMPLATE_FILE“ geändert. Die Namenskennung „TEMPLATE_FILE“ verfügt über sechs Ressourcen:
 
 <table>
  <tbody>
@@ -342,20 +342,20 @@ Die Datei CommonResources.dll enthält Informationen zu den Ressourcenvorlagen. 
 
    >[!NOTE]
    >
-   >Wenn die Datei nicht im Projektmappen-Explorer-Fenster angezeigt wird, öffnen Sie die Datei mit der Option Öffnen mit erneut. Wählen Sie den Ressourcen-Editor als Editor aus.
+   >Wenn die Datei nicht im Fenster „Projektmappen-Explorer“ angezeigt wird, öffnen Sie die Datei erneut mit der Option „Öffnen mit“. Wählen Sie den Ressourcen-Editor als Editor aus.
 
 1. Erweitern Sie im „Solution Explorer“-Fenster, das Verzeichnis „TEMPLATE_FILE“ und löschen Sie Ressourcen „101“.
 
 1. Fügen Sie die Ressourcen hinzu:
 
-   1. Klicken Sie bei in Solution Explorer ausgewähltem Projekt im Menü Projekt auf Eigenschaften .
-   1. Wählen Sie die Registerkarte Ressourcen .
-   1. Zeigen Sie in der Symbolleiste &quot;Resource Designer&quot;auf &quot;Ressource hinzufügen&quot;und klicken Sie auf den Pfeil. Wählen Sie als Ressourcentyp TEMPLATE_FILE und klicken Sie auf &quot;Importieren&quot;.
-   1. Navigieren Sie im Dialogfeld Vorhandene Datei zu Ressourcen hinzufügen zur Datei Resource.xlsx und klicken Sie auf &quot;Öffnen&quot;. Die Datei wird dem Verzeichnis TEMPLATE_FILE hinzugefügt.
+   1. Wenn ein Projekt im Projektmappen-Explorer ausgewählt ist, klicken Sie im Menü „Projekt“ auf „Voreinstellungen“.
+   1. Wählen Sie die Registerkarte „Ressourcen“.
+   1. Auf der Resourcen-Designer-Symbolleiste fahren Sie mit der Maus über „Ressource hinzufügen“ und klicken Sie auf den Pfeil. Wählen Sie als Ressourcentyp „TEMPLATE_FILE“ und klicken Sie auf „Importieren“.
+   1. Im Dialogfeld „Vorhandene Datei zu Ressourcen hinzufügen“ navigieren Sie zur Datei „Resource.xlsx“ und klicken dann auf „Öffnen“. Die Datei wird dem Verzeichnis „TEMPLATE_FILE“ hinzugefügt.
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass die Spracheinstellungen korrekt sind. Löschen Sie die Ressource in neutraler Sprache.
+   >Stellen Sie sicher, dass die Spracheinstellungen korrekt sind. Löschen Sie die Ressource mit neutraler Sprache.
 
 1. Wiederholen Sie die Schritte 2 und 3 für alle Ressourcentypen.
 
@@ -367,15 +367,15 @@ Die Datei CommonResources.dll enthält Informationen zu den Ressourcenvorlagen. 
 
 Sie können die Datei „CommonResources.dll“ anpassen, um eine benutzerdefinierte Titelseite einzubeziehen. Nach dem Anpassen der Datei können Sie die Originaldatei mit der benutzerdefinierten Datei auf allen Computern manuell ersetzen oder eine automatische Methode zum Ersetzen der Datei wählen.
 
-In einer großen Umgebung ist es schwierig und mühsam, die Standarddatei `CommonResources.dll file` durch eine benutzerdefinierte Datei `CommonResources.dll` manuell zu ersetzen. Sie können ein selbstentpackendes und Verpackungswerkzeug verwenden (z. B. WinZip Self-Extractor), um die benutzerdefinierte CommonResources.dll-Datei mit AEM Document Security Extension for Microsoft Office-Installationsprogramm zu verpacken. Später können Sie das benutzerdefinierte Installationsprogramm an alle Workstations verteilen. Diese Methode reduziert die Zeit, die benötigt wird, um die Standarddatei `CommonResources.dll` durch eine benutzerdefinierte Datei zu ersetzen. Außerdem wird sichergestellt, dass alle Computer die erforderliche CommonResources.dll-Datei haben. Das Tool zum Selbstextrahieren und Verpacken ist nur eine der vielen möglichen Methoden zum automatischen Ersetzen einer Datei. Sie können die Methode wählen, die für Sie und Ihre Umgebung geeignet ist.
+In einer großen Umgebung ist es schwierig und mühsam, die Standarddatei `CommonResources.dll file` durch eine benutzerdefinierte Datei `CommonResources.dll` manuell zu ersetzen. Sie können ein Selbstextraktions- und Verpackungs-Tool (zum Beispiel WinZip Self-Extractor) verwenden, um die benutzerdefinierte Datei „CommonResources.dll“ zusammen mit dem AEM Document Security Extension-Installationsprogramm für Microsoft Office zu verpacken. Später können Sie das benutzerdefinierte Installationsprogramm an alle Computer verteilen. Diese Methode reduziert die Zeit, die benötigt wird, um die Standarddatei `CommonResources.dll` durch eine benutzerdefinierte Datei zu ersetzen. Außerdem wird sichergestellt, dass alle Computer die erforderliche CommonResources.dll-Datei haben. Das Tool zum Selbstextrahieren und Verpacken ist nur eine der vielen möglichen Methoden zum automatischen Ersetzen einer Datei. Sie können die Methode wählen, die für Sie und Ihre Umgebung geeignet ist.
 
 Sie können die folgenden Schritte ausführen, um die benutzerdefinierte `CommonResources.dll`-Datei mit dem Installationsprogramm der AEM Document Security Extension for Microsoft Office zu verpacken:
 
-1. Installieren Sie ein selbstentpackendes und Verpackungswerkzeug. Beispiel: WinZip Self-Extractor.
-1. Erstellen Sie einen neuen Ordner. Beispiel: YOUR_FOLDER_NAME
-1. Platzieren Sie das ursprüngliche Installationsprogramm AEM Document Security-Erweiterung und die benutzerdefinierte CommonResources.dll-Datei in den neu erstellten Ordner.
-1. Erstellen Sie eine Batch-Datei im Ordner . Beispiel: YOUR_FOLDER_NAME\Installer.bat
-1. Öffnen Sie die Batch-Datei zur Bearbeitung und fügen Sie der Batch-Datei den folgenden Code hinzu:
+1. Installieren Sie ein Selbstextraktions- und Verpackungs-Tool. Beispielsweise WinZip Self-Extractor.
+1. Erstellen Sie einen neuen Ordner. Beispielsweise „IHR_ORDNER_NAME“
+1. Platzieren Sie das ursprüngliche AEM Document Security Extension-Installationsprogramm und die benutzerdefinierte Datei „CommonResources.dll“ in den neu erstellten Ordner.
+1. Erstellen Sie eine Batch-Datei im Ordner. Beispielsweise IHR_ORDNER_NAME\Installer.bat
+1. Öffnen Sie die Batch-Datei zur Bearbeitung und fügen Sie ihr den folgenden Code hinzu:
 
    ```shell
     @echo off
@@ -415,8 +415,8 @@ Sie können die folgenden Schritte ausführen, um die benutzerdefinierte `Common
    * (LiveCycle Rights Management ES4 und Version 11.0) HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0
    * (AEM 6.0 Forms on JEE und höher) HKLM\SOFTWARE\Adobe\LiveCycle Rights Management ES4\11.0.0
 
-1. Ersetzen Sie im obigen Code alle Instanzen von YOUR_FOLDER_NAME durch den Namen des Ordners, den Sie in Schritt 2 erstellt haben.
-1. **(AEM Document Security Extension for Microsoft Office-Installationsprogramm nur mit der Erweiterung .exe )** Ersetzen Sie die folgende Codezeile:
+1. Ersetzen Sie im obigen Code alle Instanzen von „IHR_ORDNER_NAME“ durch den Namen des Ordners, den Sie in Schritt 2 erstellt haben.
+1. **(Nur für das AEM Document Security Extension for Microsoft Office-Installationsprogramm mit .exe-Erweiterung)** Ersetzen Sie die folgende Code-Zeile:
 
    `msiexec /i YOUR_FOLDER_NAME\MSI_NAME.msi`
 durch
