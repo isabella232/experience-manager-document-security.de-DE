@@ -7,9 +7,9 @@ topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 ## Neue Funktionen in AEM Document Security for Microsoft Office {#whats-new-in-aem-document-security-for-microsoft-office}
 
-* **Unterstützung für Office 2019**: Document Security Extension for Microsoft Office unterstützt jetzt Microsoft Office 2019. Es wird überdies erwartet, dass es mit Microsoft Office 2019 Desktop-Programmen als Teil von Office. 365 funktioniert.
+* **Unterstützung für Office 2019**: Document Security Extension für Microsoft Office unterstützt jetzt Microsoft Office 2019. Es wird überdies erwartet, dass es mit Microsoft Office 2019 Desktop-Programmen als Teil von Office. 365 funktioniert.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 Diese Version von Document Security Extension for Microsoft Office ist mit Adobe LiveCycle Rights Management ES2 und höher und Document Security-Add-on für AEM Forms kompatibel.
 
-Prüfen Sie die Informationen in diesem Dokument, bevor Sie AEM Document Security Extension for Microsoft Office installieren. Detaillierte Installationsanweisungen finden Sie unter [Installieren und Konfigurieren AEM Document Security Extension for Microsoft Office](installing-configuring-aemdsext.md) Artikel.
+Prüfen Sie die Informationen in diesem Dokument, bevor Sie AEM Document Security Extension for Microsoft Office installieren. Detaillierte Installationsanweisungen finden Sie unter [Installieren und Konfigurieren von AEM Document Security Extension for Microsoft Office](installing-configuring-aemdsext.md).
 
 ## Behobene Probleme {#fixed-issues}
 
@@ -55,9 +55,9 @@ In Microsoft Office sind während einer geschützten Sitzung die folgenden Optio
    * Datei > Exportieren
    * Datei > Veröffentlichen
    * Datei > Konto
-   * Datei > Info > Protect-Dokument/Arbeitsmappe/Präsentation > Mit Kennwort verschlüsseln
-   * Datei > Info > Protect-Dokument > Digitale Signatur hinzufügen
-   * Datei > Info > Protect-Dokument > Als abgeschlossen markieren
+   * Datei > Informationen > Dokument/Arbeitsmappe/Präsentation schützen > Mit Kennwort verschlüsseln
+   * Datei > Informationen > Dokument schützen > Digitale Signatur hinzufügen
+   * Datei > Informationen > Dokument schützen > Als abgeschlossen kennzeichnen
    * Freigabeoption oben rechts
 
 * Microsoft Office 2013
@@ -66,9 +66,9 @@ In Microsoft Office sind während einer geschützten Sitzung die folgenden Optio
    * Datei > Freigeben
    * Datei > Exportieren
    * Datei > Konto
-   * Datei > Info > Protect-Dokument/Arbeitsmappe/Präsentation > Mit Kennwort verschlüsseln
-   * Datei > Info > Protect-Dokument > Digitale Signatur hinzufügen
-   * Datei > Info > Protect-Dokument > Als abgeschlossen markieren
+   * Datei > Informationen > Dokument/Arbeitsmappe/Präsentation schützen > Mit Kennwort verschlüsseln
+   * Datei > Informationen > Dokument schützen > Digitale Signatur hinzufügen
+   * Datei > Informationen > Dokument schützen > Als abgeschlossen kennzeichnen
 
 ### Öffnen eines geschützten Dokuments vom SharePoint-Server aus {#opening-a-protected-document-from-sharepoint-server}
 
@@ -84,7 +84,7 @@ Wenn Sie auf einem Computer, bei dem kein Drucker installiert ist, eine Richtlin
 
 ### Deaktivieren Sie Windows Data Execution Prevention für unterstützte Office-Programme {#disable-windows-data-execution-prevention-for-supported-office-applications}
 
-Es wird empfohlen, dass Sie bei der Verwendung von Microsoft Office-Programmen, die von Document Security Extension unterstützt werden, die Windows Data Execution Prevention (DEP)-Einstellungen deaktivieren.
+Es wird empfohlen, dass Sie bei der Verwendung von Microsoft Office-Programmen, die von Document Security Extension unterstützt werden, die Einstellungen der Windows Data Execution Prevention (DEP) deaktivieren.
 
 ### Freigegebene Microsoft Office-Dateien können nicht mit Document Security Extension geschützt werden {#shared-microsoft-office-files-cannot-be-protected-using-document-security-extension}
 
@@ -110,9 +110,9 @@ AEM Document Security Extension for Microsoft Office unterstützt keine Testvers
 
 Wenn die geschützte Ansicht von Microsoft Office aktiviert ist, kann Rights Management Extension keine geschützten Microsoft Excel-Dateien (XLS, XLSX) und keine geschützten Microsoft PowerPoint (PPT)-Dateien von einem Remote-Standort aus öffnen.
 
-### Zellen eines Microsoft Excel-Dokuments, die ein Bild oder eine Hintergrundfarbe enthalten, erscheinen über dem Wasserzeichen {#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark}
+### Zellen eines Microsoft Excel-Dokuments, die ein Bild oder eine Hintergrundfarbe enthalten, erscheinen vor dem Wasserzeichen {#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark}
 
-Wenn eine Zelle eines Microsoft Excel-Dokuments ein Bild enthält oder mit einer Hintergrundfarbe befüllt ist, und eine dynamische Wasserzeichenrichtlinie auf das Dokument angewendet wird, wird das Bild oder die Hintergrundfarbe über dem Wasserzeichen angezeigt und das Wasserzeichen wird davon überdeckt.
+Wenn eine Zelle eines Microsoft Excel-Dokuments ein Bild enthält oder mit einer Hintergrundfarbe befüllt ist und eine dynamische Wasserzeichenrichtlinie auf das Dokument angewendet wird, wird das Bild bzw. die Hintergrundfarbe vor dem Wasserzeichen angezeigt, sodass das Wasserzeichen davon überdeckt wird.
 
 ### Bedienungsproblem mit mehreren Zertifikaten {#usability-issue-with-multiple-certificates}
 
@@ -120,6 +120,6 @@ Wenn mehrere Zertifikate auf einem Client-Computer vorhanden sind und der Benutz
 
 ### Microsoft PowerPoint ermöglicht das Bearbeiten von geschützten Dokumenten {#microsoft-powerpoint-allows-editing-protected-documents}
 
-Beim Versuch, ein geschütztes Dokument zu bearbeiten, zeigt Microsoft PowerPoint die Meldung &quot;Sie dürfen dieses Dokument nicht ändern. Sie können Ihre Änderungen nicht speichern.&quot; Nach dem Schließen der Nachricht können Benutzer weiterhin Text hinzufügen oder das Dokument bearbeiten. Die Änderungen an den geschützten Dokumenten werden jedoch nicht gespeichert.
+Beim Versuch, ein geschütztes Dokument zu bearbeiten, zeigt Microsoft PowerPoint die Meldung „Sie dürfen dieses Dokument nicht ändern. Sie können Ihre Änderungen nicht speichern.“ Nach dem Schließen der Meldung können Benutzende weiterhin Text hinzufügen oder das Dokument bearbeiten. Die Änderungen an den geschützten Dokumenten werden jedoch nicht gespeichert.
 
-Das oben genannte Verhalten wird in PowerPoint 2013, PowerPoint 2016 und PowerPoint 2019 erwartet.
+Das oben genannte Verhalten ist in PowerPoint 2013, PowerPoint 2016 und PowerPoint 2019 erwartungsgemäß.
