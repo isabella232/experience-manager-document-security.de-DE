@@ -7,9 +7,9 @@ topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Document Security Extension for Microsoft® Office erweitert das LiveCycle Right
 
 ## Schutz von geistigem Eigentum mit Document Security {#how-document-security-protects-intellectual-property}
 
-Document Security stellt sicher, dass nur die von Ihnen autorisierten Personen auf Dateien zugreifen können, die Ihr geistiges Eigentum enthalten. Mit Document Security können Sie Dateien mithilfe von Vertraulichkeitsrichtlinien schützen. A *policy* ist eine Sammlung von Informationen, die Vertraulichkeitseinstellungen und eine Liste autorisierter Benutzer umfasst. Die Einstellungen, die Sie in einer Richtlinie angeben, bestimmen, wie ein Empfänger eine Datei nutzen darf, auf die Sie die Richtlinie anwenden. Sie können beispielsweise angeben, ob Empfänger Text drucken oder kopieren oder Änderungen speichern können.
+Document Security stellt sicher, dass nur die von Ihnen autorisierten Personen auf Dateien zugreifen können, die Ihr geistiges Eigentum enthalten. Mit Document Security können Sie Dateien mithilfe von Vertraulichkeitsrichtlinien schützen. Eine *Richtlinie* ist eine Zusammenstellung von Informationen, die unter anderem Vertraulichkeitseinstellungen und eine Liste der berechtigten Benutzenden umfasst. Die Einstellungen, die Sie in einer Richtlinie angeben, bestimmen, wie ein Empfänger eine Datei nutzen darf, auf die Sie die Richtlinie anwenden. Sie können beispielsweise angeben, ob Empfänger Text drucken oder kopieren oder Änderungen speichern können.
 
 Document Security-Administratoren und -Benutzer erstellen Richtlinien. Administratoren erstellen Organisationsrichtlinien, die allen autorisierten Benutzern zur Verfügung stehen. Administratoren oder Richtliniensatzkoordinatoren können auch Gruppen von Richtlinien mit der Bezeichnung *Richtliniensätze* erstellen, die einer Untergruppe von Benutzern zur Verfügung stehen. Benutzer können eigene Richtlinien erstellen, die nur sie verwenden können. Administratoren, Richtliniensatzkoordinatoren und Benutzer erstellen Richtlinien auf den Document Security-Web-Seiten.
 
@@ -77,8 +77,8 @@ Die Ressourcen in dieser Tabelle können Ihnen dabei helfen, mehr über AEM Docu
    <th><p>Siehe</p> </th>
   </tr>
   <tr>
-   <td><p>Hilfe für AEM Forms-Administratoren</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/get-started/configure-general-aem-forms-settings.html?lang=de">Administratorhilfe</a> oder klicken Sie auf den Administrationsseiten von Document Security oben rechts auf der Seite auf den Link Hilfe .</p> </td>
+   <td><p>Hilfe für AEM Forms-Admins</p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/get-started/configure-general-aem-forms-settings.html?lang=de">Admin-Hilfe</a> oder klicken Sie auf den Administrationsseiten von Document Security in der rechten oberen Ecke auf den Hilfe-Link.</p> </td>
   </tr>
   <tr>
    <td><p>Patch-Updates, technische Hinweise und zusätzliche Informationen zu dieser Produktversion</p> </td>
