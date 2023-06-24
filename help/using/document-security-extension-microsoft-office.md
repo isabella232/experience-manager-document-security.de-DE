@@ -27,7 +27,7 @@ Document Security-Administratoren und -Benutzer erstellen Richtlinien. Administr
 
 Die Richtlinien sind zwar in Document Security gespeichert, Sie wenden sie aber über Word, Excel oder PowerPoint auf Dateien an. Wenn Sie eine Richtlinie auf eine Datei anwenden, werden die in der Datei enthaltenen Informationen durch die in der Richtlinie angegebenen Vertraulichkeitseinstellungen geschützt. Wenn Sie die richtliniengeschützte Datei verteilen, können nur von der Richtlinie autorisierte Empfängerinnen und Empfänger auf den Dateiinhalt zugreifen.
 
-Durch das Schützen einer Datei` mit einer Richtlinie behalten Sie die Kontrolle über die Datei, auch nachdem sie verteilt wurde. Sie können Ereignisse überprüfen, um zu verfolgen, wann und wie Empfänger Ihre Datei verwenden, Änderungen an der Richtlinie vornehmen, Benutzer am weiteren Zugriff auf die Datei hindern und die mit der Datei verbundene Richtlinie ändern.
+Durch das Schützen einer Datei mit einer Richtlinie behalten Sie die Kontrolle über die Datei, auch nachdem sie verteilt wurde. Sie können Ereignisse überprüfen, um zu verfolgen, wann und wie Empfänger Ihre Datei verwenden, Änderungen an der Richtlinie vornehmen, Benutzer am weiteren Zugriff auf die Datei hindern und die mit der Datei verbundene Richtlinie ändern.
 
 ## Funktionsweise von Richtlinien {#how-policies-work}
 
