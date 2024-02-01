@@ -7,9 +7,10 @@ feature-set: Experience Manager Forms
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-manager-document-security.de-DE
 index: true
-source-git-commit: f8c8ec57aa5966b4b55ad782d8fdf0a156de25c4
-workflow-type: tm+mt
-source-wordcount: '130'
+recommendations: noDisplay
+source-git-commit: 8b36d6dd8755d779c5e7f258df3ee2c68a5d1a5e
+workflow-type: ht
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -31,7 +32,7 @@ Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Da
 
 In der Datei TOC.md
 
-| Metadaten | Funktion |
+| metadata | Funktion |
 |--- |--- |
 | user-guide-title | Wird in der Artikelkopfzeile als Link verwendet |
 | user-guide-url | Öffnet die helpx-Hub-Seite |
