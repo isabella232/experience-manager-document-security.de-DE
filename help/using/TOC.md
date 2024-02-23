@@ -6,9 +6,9 @@ user-guide-description: Die Document Security-Erweiterung für Microsoft® Offic
 feature: Document Security
 role: User
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '97'
+ht-degree: 100%
 
 ---
 

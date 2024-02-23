@@ -8,7 +8,7 @@ discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: ht
-source-wordcount: '6231'
+source-wordcount: '6242'
 ht-degree: 100%
 
 ---
@@ -75,6 +75,7 @@ Wenn Sie auf die Document Security-Webseiten über Zertifikatauthentifizierung o
 >Wenn Sie keine Verbindung mit dem Server herstellen können, versuchen Sie, die Document Security-Web-Seiten in Internet Explorer zu öffnen. Wenn Sie mit Internet Explorer keine Verbindung zum Server herstellen können oder wenn in einem Dialogfeld eine Warnung bezüglich des Server-Zertifikats angezeigt wird, kann Document Security Extension für Microsoft® Office keine Verbindung zum Server herstellen. Wenden Sie sich an die Server-Admins, um Hilfe zu erhalten.
 
 >[!NOTE]
+>
 >Wenn Sie keine Verbindung zu Document Security herstellen können, wird eine Meldung angezeigt, die besagt: „Der Benutzername und das Kennwort sind falsch. Bitte überprüfen Sie Ihre Konfigurationseinstellungen und versuchen Sie es erneut“. Diese Meldung kann angezeigt werden, wenn Sie aus einem anderen Grund keine Verbindung herstellen können. Wenn Sie zum ersten Mal eine Verbindung mit dem Server herstellen, überprüfen Sie, ob Sie den Namen und Port des Servers richtig eingestellt haben.
 
 #### Festlegen des Standard-Servers {#specify-the-default-server}
@@ -109,6 +110,7 @@ Führen Sie zum Aktivieren der erweiterten Authentifizierung mit der standardmä
    Klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!NOTE]
+   >
    >Verwenden Sie einen vollständig qualifizierten Hostnamen in der URL. Es wird empfohlen, das HTTPS-Protokoll zu verwenden.
 
    Jetzt ist die AEM Forms-Dokumentensicherheit so konfiguriert, dass die erweiterte Authentifizierung mit der standardmäßigen Startseiten-URL für AEM Forms verwendet wird.
@@ -133,6 +135,7 @@ So aktivieren Sie die erweiterte Authentifizierung mit einer benutzerdefinierten
 1. Fügen Sie der Datei config.xml unter dem SSO-Knoten nach dem Eintrag *&lt;node name=&quot;AllowedUrls&quot;>* die folgenden Einträge hinzu:
 
    >[!NOTE]
+   >
    >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
    Schrittweise Informationen zum Aktualisieren der Datei „config.xml“ finden Sie unter [Manuelles Bearbeiten der Document Security-Konfigurationsdatei](https://helpx.adobe.com/de/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file).
@@ -178,6 +181,7 @@ Wenn Sie noch kein Document Security-Konto haben, kann Document Security den Reg
 Nachdem Sie sich registriert und Ihr Konto aktiviert haben, können Sie richtliniengeschützte Dateien verwenden, zu deren Nutzung Sie über eine Richtlinie berechtigt wurden.
 
 >[!NOTE]
+>
 >Wenn Sie eine richtliniengeschützte Datei empfangen und kein Document Security-Konto haben oder eine Einladung zum Registrieren erhalten, wenden Sie sich an die Person, die Ihnen die Datei geschickt hat.
 
 Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten, können Sie sich registrieren, indem Sie die URL in der E-Mail verwenden, um die Online-Registrierungsseite zu öffnen. Nach der Registrierung erhalten Sie eine weitere Benachrichtigung zur Aktivierung Ihres Kontos.
@@ -189,6 +193,7 @@ Wenn Sie eine Einladungs-E-Mail zur Registrierung von Document Security erhalten
 1. Geben Sie Ihren Namen, Ihre Organisation und Ihr Kennwort in die entsprechenden Felder ein. Ihr Passwort kann eine beliebige Kombination aus acht Zeichen sein.
 
    >[!NOTE]
+   >
    >Achten Sie darauf, dass Sie ein Passwort wählen, das leicht zu merken ist. Es gibt keine Methode, um vergessene Kennwörter zu finden.
 
 1. Klicken Sie auf **Registrieren**. Es wird eine Meldung angezeigt, die Sie auffordert, Ihre E-Mail auf eine Aktivierungs-E-Mail zu überprüfen.
@@ -327,6 +332,7 @@ Sie können alle verfügbaren Richtlinien auf eine Datei anwenden, einschließli
 Nachdem Sie eine Richtlinie angewendet haben, wird sie der Liste „Zuletzt verwendet“ im Menü „AEM Document Security“ hinzugefügt, damit Sie Ihre am meisten verwendeten Richtlinien einfach und schnell anwenden können. Bei mehreren Instanzen von Document Security enthält die Liste „Zuletzt verwendet“ nur die Richtlinien für den Server, mit dem Sie gegenwärtig verbunden sind, oder für Ihren Standard-Server, falls Sie sich noch nicht bei einer Instanz von Document Security angemeldet haben.
 
 >[!NOTE]
+>
 >Sie können Richtlinien nur auf Word-Dokumentdateien (.doc, auch .docx und .docm in Microsoft® Office 2010 und 2013), Excel-Arbeitsmappendateien (.xls, auch .xlsx und .xlsm in Microsoft® Office 2010 und 2013) und PowerPoint-Präsentationsdateien (.ppt, auch .pptx und .pptm in Microsoft® Office 2010 und 2013) anwenden. Richtlinien können nicht auf Word-Vorlagendateien (.dot), Excel-Vorlagendateien (.xlt) und PowerPoint-Design-Vorlagendateien (.pot) angewendet werden.
 
 #### Anwenden einer Richtlinie {#apply-a-policy}
@@ -358,6 +364,7 @@ Document Security Extension für Microsoft® Office schränkt bestimmte Word-, E
 Wenn Sie mit einer richtliniengeschützten Datei arbeiten, stehen einige Produktfunktionen möglicherweise nicht zur Verfügung oder funktionieren nicht wie gewohnt. Wenn Sie auch eine ungeschützte Datei geöffnet haben, sind die meisten Funktionen für die ungeschützte Datei aktiviert, mit Ausnahme derjenigen, die es Ihnen ermöglichen, Inhalte aus einer richtliniengeschützten Datei zu importieren oder zu kopieren, für die Sie keine Kopier- oder Exportberechtigung haben.
 
 >[!NOTE]
+>
 >Wenn Sie von Document Security Extension unterstützte Office-Programme verwenden, wird empfohlen, die Windows DEP-Einstellung zu deaktivieren. Wenn Sie außerdem einen reibungslosen Start von Office-Programmen auf Computern mit installierter Document Security Extension und aktiviertem McAfee VirusScan mit Überprüfung bei Zugriff sicherstellen möchten, deaktivieren Sie die Option „Pufferüberlaufschutz“ in der McAfee VirusScan-Konsole.
 
 Wenn eine Funktion nicht verfügbar ist, sind der Befehlsname im Menü und die entsprechende Schaltfläche in der Symbolleiste nicht verfügbar. Wenn Sie in Document Security Extension für Microsoft® Office mit dem Mauszeiger über den Befehl oder die Schaltfläche fahren, zeigt ein Tooltip an, dass der Befehl durch Document Security nicht verfügbar ist.
@@ -385,6 +392,7 @@ Falls Sie die Berechtigung haben, können Sie den Richtlinienschutz von Dateien 
    Wenn Sie noch keine Anmeldeinformationen für Document Security angegeben haben, werden Sie in einem Dialogfeld aufgefordert, Ihren Benutzernamen und Ihr Kennwort einzugeben.
 
 >[!NOTE]
+>
 >Wenn Sie eine Richtlinie nicht von einer geschützten Datei entfernen können, wenden Sie sich an einen Document Security-Administrator.
 
 ### Anzeigen von Sicherheitseinstellungen {#viewing-security-settings}
@@ -404,6 +412,7 @@ Wenn Ihr Admin die Funktion zum automatischen Anwenden von Richtlinien aktiviert
 Wenn die Richtlinie für die automatische Anwendung aktiviert ist, werden Sie von Document Security Extension für Microsoft® Office aufgefordert, sich beim Document Security-Server anzumelden. Sie müssen Ihren Benutzernamen und Ihr Passwort angeben, um vom Server authentifiziert zu werden. Wenn Sie die richtigen Anmeldeinformationen angegeben haben, wird das Dokument gespeichert und geschützt.
 
 >[!NOTE]
+>
 >Wenn Sie sich nicht bei Document Security anmelden können, wird das Dokument möglicherweise gespeichert. Dies hängt davon ab, wie Ihr Administrator die Richtlinie zur automatischen Anwendung konfiguriert hat. Wenden Sie sich an den Administrator, um zu erfahren, wie Dokumente in diesem Fall behandelt werden.
 
 ### Synchronisieren für den Offline-Zugriff {#synchronizing-for-offline-access}
@@ -414,7 +423,7 @@ Gehen Sie folgendermaßen vor:
 
 * Wählen Sie in Document Security Extension für Microsoft® Office 2010 und 2013 auf der Registerkarte **Document Security** die Option **Offline synchronisieren**.
 
-   ***Hinweis**: Die Schaltfläche „Offline synchronisieren“ ist verfügbar, obwohl der Benutzer keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch wirkungslos. *
+  ***Hinweis**: Die Schaltfläche „Offline synchronisieren“ ist verfügbar, obwohl der Benutzer keine Offline-Berechtigung für dieses Dokument hat. Das Klicken auf die Schaltfläche bleibt jedoch wirkungslos. *
 
 ### Arbeiten mit Wasserzeichen {#working-with-dynamic-watermarks}
 
@@ -542,6 +551,7 @@ Die meisten Richtlinien gewähren dem Herausgeber der Datei volle Berechtigungen
 Wenn ein Befehl nicht verfügbar ist, werden der Befehlsname im Menü und die entsprechende Schaltfläche in der Symbolleiste grau dargestellt.
 
 >[!NOTE]
+>
 >Beim Anwenden einer Richtlinie auf eine Datei, die einen Link zu einer eingebetteten Datei enthält, wird die Richtlinie nicht auf die verknüpfte Datei angewendet. Document Security for Microsoft® Office erweitert den Schutz nicht auf verknüpfte Dateien.
 
 * Richtliniengeschützte Word-, Excel- und PowerPoint-Dateien können nicht in einem Internet Explorer-Browserfenster geöffnet werden.

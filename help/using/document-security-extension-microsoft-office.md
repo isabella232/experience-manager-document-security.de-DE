@@ -8,7 +8,7 @@ discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: ht
-source-wordcount: '1313'
+source-wordcount: '1288'
 ht-degree: 100%
 
 ---
@@ -50,11 +50,11 @@ Wenn eine Benutzerin oder ein Benutzer versucht, eine richtliniengeschützte Dat
 * Für die in der Richtlinie angegebene Gültigkeitsdauer.
 * Bis ein Administrator oder die Person, die die Richtlinie angewendet hat, entweder den Zugriff auf die Datei widerruft oder die Richtlinie ändert.
 
-   Wenn die Person, die die Richtlinie angewendet hat, die Richtlinie ändert oder den Zugriff auf die Datei widerruft, werden die Berechtigungen der Benutzerin bzw. des Benutzers für die Datei geändert oder entfernt, auch wenn diese Person die Datei bereits besitzt. Wenn die Datei selbst widerrufen wurde, kann der Benutzerin bzw. dem Benutzer eine URL zur Verfügung gestellt werden, um eine aktualisierte Kopie zu erhalten.
+  Wenn die Person, die die Richtlinie angewendet hat, die Richtlinie ändert oder den Zugriff auf die Datei widerruft, werden die Berechtigungen der Benutzerin bzw. des Benutzers für die Datei geändert oder entfernt, auch wenn diese Person die Datei bereits besitzt. Wenn die Datei selbst widerrufen wurde, kann der Benutzerin bzw. dem Benutzer eine URL zur Verfügung gestellt werden, um eine aktualisierte Kopie zu erhalten.
 
-   Richtliniengeschützte Dateien können offline (ohne Internet- oder Netzwerkverbindung) geöffnet werden, wenn die Richtlinie den Offline-Zugriff zulässt, und zwar während der in der Richtlinie angegebenen Offline-Nutzungsdauer. Wenn die Offline-Nutzungsdauer endet, muss der Benutzer online gehen und mit Document Security synchronisieren, wodurch eine neue Nutzungsdauer beginnt.
+  Richtliniengeschützte Dateien können offline (ohne Internet- oder Netzwerkverbindung) geöffnet werden, wenn die Richtlinie den Offline-Zugriff zulässt, und zwar während der in der Richtlinie angegebenen Offline-Nutzungsdauer. Wenn die Offline-Nutzungsdauer endet, muss der Benutzer online gehen und mit Document Security synchronisieren, wodurch eine neue Nutzungsdauer beginnt.
 
-   Wenn die Richtlinie das Speichern der Datei zulässt und ein Benutzer eine Kopie der richtliniengeschützten Datei speichert, wird die Richtlinie automatisch für die gespeicherte Datei angewendet und durchgesetzt. Ereignisse, wie z. B. Versuche, die neue Datei zu öffnen, werden ebenfalls geprüft und aufgezeichnet, genau wie bei der Originaldatei.
+  Wenn die Richtlinie das Speichern der Datei zulässt und ein Benutzer eine Kopie der richtliniengeschützten Datei speichert, wird die Richtlinie automatisch für die gespeicherte Datei angewendet und durchgesetzt. Ereignisse, wie z. B. Versuche, die neue Datei zu öffnen, werden ebenfalls geprüft und aufgezeichnet, genau wie bei der Originaldatei.
 
 ## Verwendung von Document Security zum Schutz Ihrer Dateien {#using-document-security-to-protect-your-files}
 
